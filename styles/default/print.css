@@ -1,0 +1,18 @@
+
+#leftColumn {  
+display:none;
+}
+
+#rightColumn {  
+display:none;
+}
+body {
+	margin: 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #666666;
+	background-color:#ffffff;
+	font-size: 68%;
+}
+.noPrint {
+display:none;
+}

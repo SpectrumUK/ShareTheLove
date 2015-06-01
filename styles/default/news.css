@@ -1,0 +1,139 @@
+/* CSS Document */
+/*recipes*/
+
+#rightContent a{
+	color: #000000;
+	text-decoration: none;
+}
+
+#rightContent a:hover{
+	color: #000000;
+	text-decoration: underline;
+}
+
+#newMenu {
+	clear:both;
+	padding:0px;
+	margin: 10px 0px 0px 0px;
+	text-align:left;
+}
+
+#newMenu ul {
+	clear:both;
+	padding:0px;
+	margin:0px;
+	height: inherit;
+}
+
+#newMenu ul li {
+	list-style: none;
+	width: 425px;
+	position: relative;
+	margin: 5px 0px 5px 0px;
+	padding: 8px 0px 10px 55px;
+}
+
+#newMenu img{
+	position:absolute;
+	left: 10px;
+	top: 0px;
+	
+}
+
+.recipes{
+	height: inherit;
+	padding: 15px 0 0 0;
+}
+
+.recipes ul{
+	list-style: none;
+}
+
+.recipes ul li{
+	width: 100%;
+	min-height: 120px;
+	margin: 0px 0px 20px 0px;
+}
+
+#recipeListing {
+	width: 100%;
+}
+
+.imgColumn{
+	float: left;
+}
+
+.imgColumn img {
+	margin: 0px 20px 0px 0px;
+}
+
+.txtColumn{
+	float: left;
+	padding: 5px 20px 5px 20px;
+}
+
+.txtColumn h3 {
+	font-size: 14px;
+}
+
+.recipeDetails{
+	float: left;
+	padding: 5px 20px 0px 0px;
+	width: 522px;
+}
+
+.recipeDetails h3{
+	font-size: 14px;
+	padding: 15px 0px 0px 0px;
+}
+
+.recipes a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.recipes a:hover{
+	text-decoration: underline;
+}
+
+.recipe img {
+	border: #e5e5e5 solid 1px;
+	margin: 0px 0px 20px 0px;
+}
+
+#recProducts {
+	clear:both;
+	padding:0px;
+	margin:15px 0px 0px 0px;
+	text-align:left;
+}
+
+#recProducts ul {
+	clear:both;
+	padding:0px;
+	margin:0px;
+	height: inherit;
+	min-height: 200px;
+}
+
+#recProducts ul li {
+	list-style: none;
+	width: 138px;
+	float: left;
+	margin: 15px 15px 20px 0px;
+	position: relative;
+	text-align: center;
+}
+
+/*.recipeCat{
+	display: block;
+	background-repeat: no-repeat;
+	padding: 113px 12px 12px 12px;
+	width: 290px;
+	height: 150px;
+	margin: 0px 1px 25px 1px;
+}*/
+
+.addBut{
+	margin: 15px 0px 10px 0px;
+}

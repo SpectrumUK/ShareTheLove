@@ -1,0 +1,923 @@
+body {background-color: #000000;}
+object{position: relative; z-index: 50;}
+#dsPROstrip{background-position: top center; background-repeat: no-repeat; width: 100%; padding: 0px; margin: 0px;}
+#dsCRESTstrip{background: url(../../../images/custom/strips/crest.jpg) top center; background-repeat: no-repeat; width: 100%; padding: 0px; margin: 0px; }
+
+/***** Main Content ******/
+#dsContent{position:relative;height: inherit; text-align:left; width: 960px; \/*IE 5.x hack*/; margin: 0px auto; z-index: 90;}
+.breadCrumb{margin: 0px 0px 0px 10px!important;}
+.addthis {float: right; text-align: right; margin: 0px 10px 0px 0px;}
+
+.dsTOPContent{background:url(../../../images/custom/content_home_bk.png) top center no-repeat; padding: 40px 0px 0px; }
+.dsHUBContent{background:url(../../../images/custom/content_bk.png) top center no-repeat; padding: 20px 0px 0px; }
+.dsTOPContent h1, .dsHUBContent h1{font-size: 26px; font-weight: bold; line-height: 32px; color: #ffffff; padding: 0px; margin: 0px 0px 0px 10px;}
+.dsAHAZ a, .dsAHHO a{position: absolute; top: 5px; right: 10px; display: block; background: url(../../../images/custom/articles/a-z_btn_bk.gif) top right no-repeat; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #ffffff; padding: 14px 45px 0px 10px; height: 28px; min-width: 110px; text-decoration: none; margin: 0px; text-align: right;}
+.dsAHAZ a:hover, .dsAHHO a:hover{text-decoration: none; background: url(../../../images/custom/articles/a-z_btn_bk.gif) bottom right no-repeat; color: #000000;}
+
+#dsAZholder {clear:both; position:relative; display:none;}
+#dsITholder {clear:both; position:relative; display:block;}
+
+
+
+.dsHAO ul{clear:both; margin:0; padding:0; list-style:none; width: 100%;}
+.dsHAO ul li{position: relative; z-index:10; float: left; width: 220px; margin: 30px 10px 0px; display: block;}
+.dsHAOHolder{background: url(../../../images/custom/nested_cat_bk.png) bottom center no-repeat; padding:0px 0px 20px 0px; display: block; width: 100%; min-height: 345px;}
+.dsHAOImg a{display: block; width: 220px; height: 148px; border: none;}
+.dsHAOTitle /*a, #dsnestTitle a:hover*/ {padding: 0px 10px 0px; margin: 0px; width: 200px; height: 40px; line-height: 19px; font-family: Arial, Helvetica, sans-serif; color: #000000; font-size: 16px; text-decoration: none; display: block; font-weight: bold;}
+.dsHAOTxt {padding: 15px 10px 0px; margin: 0px; width: 200px; line-height: 16px; font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: #000000;}
+
+.dsHAOTxt p {line-height: 16px; font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: #000000; text-decoration: none; margin: 0px; padding: 0px;}
+
+.dsSUBitem ul{height: inherit; padding: 0px!important; margin: 0px!important; list-style: none; border-top: 1px #818181 dashed;}
+.dsSUBitem ul li {margin: 0px; padding: 0px;}
+.dsSUBitem ul li a{background: url(../../../images/custom/rightMenu_arrow.gif) top left no-repeat; width: 180px; height: inherit; display: block; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #ffffff; padding: 15px 10px 15px 30px!important; text-decoration: none; border-bottom: 1px #818181 dashed; margin: 0px!important; line-height: 18px;}
+.dsSUBitem li a:hover, .dsSUBitem li a:active{text-decoration: underline; color: #ffffff;}
+#Articles {clear:both; position:relative; z-index:80; min-height: nherit; width:960px; background: url(../../../images/custom/articles/tablist_top_bk.png)top center no-repeat; padding: 30px 0px 0px; margin: 25px 0px;}
+#dsASTabs {width: 220px; height: inherit; padding: 0px 17px; margin: 0px; position: relative; float: left;}
+#dsASTabs ul{height: inherit; padding: 0px!important; margin: 0px!important; list-style: none; border-top: 1px #818181 dashed; width: 220px;}
+#dsASTabs ul li {margin: 0px; padding: 0px;}
+#dsASTabs ul li a{background: url(../../../images/custom/rightMenu_arrow.gif) top left no-repeat; width: 179px; height: inherit; display: block; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #ffffff; padding: 15px 15px 15px 26px; text-decoration: none; border-bottom: 1px #818181 dashed; margin: 0px!important; line-height: 18px; margin: 0px;}
+
+#dsASTabs ul li a:hover {width: 168px; background: url(../../../images/custom/articles/tabList_hover.gif) top left no-repeat; height: inherit; padding: 15px 26px 15px 26px; text-decoration: none; display: block; color: #000000!important;}
+
+.dsASTactive a:link, .dsASTactive a:visited, .dsASTactive a:active, .dsASTactive a:hover {width: 168px; background: url(../../../images/custom/articles/tabList_active.gif) top right no-repeat!important; height: inherit; padding: 15px 26px 15px 26px; text-decoration: none; display: block; color: #000000!important;}
+
+#dsASItems{padding: 0px 0px 0px 32px; float: left; width: 673px; position: relative;}
+#dsASItems ul{width: inherit;  padding: 0px; margin: 0px; height: 420px; overflow: hidden;}
+#dsASItems ul li {width: 136px; height: 190px; /*min-height: 190px;*/ margin: 0px 12px 20px; padding: 0px; display: block; float: left;}
+#dsASTOPItems{padding: 0px; float: left; width: 960px;}
+#dsASTOPItems ul{width: inherit;  padding: 0px; margin: 0px;}
+#dsASTOPItems ul li {width: 136px; height: inherit; min-height: 190px; margin: 0px 12px 20px; padding: 0px; display: block; float: left;}
+.dsAlISTImg{padding: 3px; width: 130px; height: 130px; display: block; background-color: #ffffff;}
+.dsAlISTTitle{width: 136px; font-size: 12px; color: #ffffff; margin: 10px 0px 0px; font-family: Arial, Helvetica, sans-serif; line-height: 16px; padding: 0px; height: inherit;}
+.dsAlISTTitle a:link, .dsAlISTTitle a:active, .dsAlISTTitle a:visited, .dsAlISTTitle a:hover {font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #ffffff;	padding:0px; text-decoration:none !important; line-height: 16px;}
+
+#dsVIEWAll_btn a{position: absolute; right: 45px; bottom: -48px; border-top: 1px dashed #898989; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #ffffff; line-height: 18px; background: url(../../../images/custom/view_all_recipe_btn.gif) top left repeat-x; height: 32px; min-width: 100px; text-decoration: none; padding: 13px 15px 0px 32px; display: block; z-index: 100;}
+
+#dsVIEWAll_btn a:hover{color: #000000; text-decoration: none; background: url(../../../images/custom/view_all_recipe_btn.gif) bottom left repeat-x}
+
+#dsASItems_bottom {width: 960px; height: 50px; background: url(../../../images/custom/articles/tablist_bottom_bk.png) bottom center no-repeat; position: relative;}
+
+#dsAZContent{width: 940px; height: inherit; margin: 14px 0px 0px; padding: 10px; background-color: #ffffff;}
+
+.dsAZColum{float: left; margin: 0px 5px 30px; width: 220px; padding: 0px; height: inherit;}
+
+.dsAZTitle{margin: 0px; display: block; width: 210px; height: inherit; font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #000000; text-decoration: none; padding: 15px 0px 25px 10px; line-height: 20px; font-weight: bold; background: url(../../../images/custom/a-z_title_bk.gif) bottom center no-repeat;}
+
+.dsAZColum a:link, .dsAZColum a:active, .dsAZColum a:visited{margin: 10px 0px; display: block; width: 190px; height: inherit; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #000000; text-decoration: none; background:url(../../../images/custom/a-z_link_bk.gif) top left no-repeat; padding: 0px 0px 0px 20px; line-height: 16px;}
+
+.dsAZColum a:hover{text-decoration: underline; color: #000000;}
+
+/***** Article Content ******/
+.addthisA {float: left; text-align: left; margin: 0px 0px 10px 0px;}
+.dsARTleft{float: left; width: 640px; padding: 25px 0px 0px 0px; margin: 0px; position: relative; z-index: 40;}
+.dsARTleft h1{font-size: 26px; font-weight: bold; line-height: 32px; color: #ffffff; padding: 0px; margin: 30px 0px 0px;}
+.dsARTleft h2{font-size: 16px; font-weight: bold; line-height: 20px; color: #ffffff; padding: 0px; margin: 15px 0px 0px;}
+.dsARTleft p, .dsARTleft a, .dsARTleft a:hover{font-size: 12px; line-height: 18px; color: #ffffff; padding: 15px 0px 0px; margin: 0px;}
+.dsARTleft a, dsARTleft a:hover{text-decoration: underline;}
+
+
+.dsAIMG{background-color: #ffffff; padding: 8px; margin: 35px 20px; width: 505px; position: relative; height: 284px;}
+.dsASVideo, .dsAFLASH{background-color: #ffffff; padding: 8px; margin: 35px 20px; width: 504px; position: relative; height: 284px; display: block; z-index: 80;}
+
+.dsIMGLeftCorner, .dsIMGRightCorner{width: 100px; height: 87px; display: block; z-index: 90;}
+.dsIMGLeftCorner{position: absolute; top: -20px; left: -20px; background-color: #F00;}
+.dsIMGRightCorner{position: absolute; bottom: -20px; right: -20px; background-color:#0FF;}
+
+.dsATitle, .dsMAtxt, .dsADisclaimer{margin: 0px 0px 0px 20px!important; width: 520px;}
+.dsADisclaimer p, .dsADisclaimer a, .dsADisclaimer a:hover{font-size: 11px;}
+
+.dsAGHolder{background: url(../../../images/custom/articles/galleryThumb_bk.png) top center no-repeat; width: 560px; height: 238px; position: relative; padding: 0px; margin: 15px 0px 0px;}
+.dsAGTitle, .dsAGTxt p{margin: 0px; width: 215px; font-family: Arial, Helvetica, sans-serif; color: #ffffff; text-decoration: none; }
+.dsAGTitle {padding: 50px 0px 0px 25px; line-height: 20px; font-size: 16px; font-weight: bold;}
+.dsAGTxt p{padding: 15px 0px 0px 25px; line-height: 18px; font-size: 12px;}
+.dsAGImg{position: absolute; top: 2px; right: 0px;}
+
+/**** Gallery Lightbox ****/
+
+#galleryTitle {position:absolute; z-index:99; top: 25px; left:15px; height:25px; width: 600px; padding: 0px; font-family: Arial, Helvetica, sans-serif; font-size:18px; line-height: 22px; color: #000000; font-weight: bold;}
+
+#galleryLB {position:relative; z-index:98; min-height:675px; width:659px; background-image: url('../../images/custom/lightbox_bk.png'); background-color: #000000; background-position: top center; background-repeat:no-repeat;
+padding:0px; margin:0px;}
+
+#dsGalleryThumbOne, #dsGalleryThumbTwo, #dsGalleryThumbThree, #dsGalleryThumbFour, #dsGalleryThumbFive, #dsGalleryThumbSix, #dsGalleryThumbSeven, #dsGalleryThumbEight {position:absolute; z-index:60; top:68px; left:15px; width:630px; height:53px;}
+
+#dsGalleryThumbSelect{position:absolute; z-index:60; top:0px; left:0px; width:88px; height:50px; border-bottom: 3px solid #e1001a;}
+
+#dsGalleryArrow {position:absolute; top:-18px; left:36px; width:11px; height:10px; z-index:60; text-align:center;}
+
+#dsGalleryThumbItems{position:absolute; top:0px; left:0px; z-index:50;}
+
+.dsGalleryT {padding:0px; margin:0px 2px 0px 0px; position: relative; float:left; width: 88px; height:50px;}
+.dsGalleryTOne, .dsGalleryTTwo, .dsGalleryTThree, .dsGalleryTFour, .dsGalleryTFive, .dsGalleryTSix, .dsGalleryTSeven, .dsGalleryTEight, .dsGalleryTBlank {width: 610px; padding: 20px 25px; margin: 0px;} 
+
+.dsGalleryTOne p , .dsGalleryTTwo p, .dsGalleryTThree p, .dsGalleryTFour p, .dsGalleryTFive p, .dsGalleryTSix p, .dsGalleryTSeven p, .dsGalleryTEight p, .dsGalleryTBlank p {font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 18px; color: #000000; text-decoration: none; padding: 0px; margin: 0px;} 
+
+.dsGalleryTOne a , .dsGalleryTTwo a, .dsGalleryTThree a, .dsGalleryTFour a, .dsGalleryTFive a, .dsGalleryTSix a, .dsGalleryTSeven a, .dsGalleryTEight a, .dsGalleryTOne a:hover, .dsGalleryTTwo a:hover, .dsGalleryTThree a:hover, .dsGalleryTFour a:hover, .dsGalleryTFive a:hover, .dsGalleryTSix a:hover, .dsGalleryTSeven a:hover, .dsGalleryTEight a:hover, .dsGalleryTBlank a, .dsGalleryTBlank a:hover {font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 18px; color: #000000; text-decoration: underline; padding: 0px; margin: 0px;}
+
+
+#dsGalleryHolder {position:absolute; top:129px; left:0px; width:659px; height:inherit; min-height: 515px; overflow: hidden; padding:0px; margin:0px; background-image:none !important;}
+
+#dsGallerySlider {position:absolute; top:0px; left:0px; width:10000px; height: inherit; overflow:hidden;}
+
+
+.dsGalleryI {padding:0px; margin:0px; position:relative; float:left; z-index:50; width:659px; height:inherit;}
+.dsGalleryTImg{padding: 0px; margin: 0px;}
+
+.dsGalLArrow{position: absolute; z-index:99; left: 10px; top: 290px; display: block;}
+
+.dsGalLArrow a {display:none;}
+.dsGalRArrow{position: absolute; z-index:99; right: 10px; top: 290px; display: block;}
+
+#dsARProd{width: 290px; height: inherit; margin: 0px; padding: 30px 0px 0px;}
+
+.dsARFeatTitle{width:290px; height: 24px; display: block; font-family: Arial, Helvetica, sans-serif; color: #ffffff; padding: 0px; text-decoration: none; font-size: 16px; font-weight: bold; margin: 0px; line-height: 21px;}
+
+#dsARTProSML{width: 290px; height: inherit; margin: 0px; padding: 0px;}
+
+.dsPROList{width: 130px; height: 240px; display: block; text-align: left; position: relative; margin: 20px 10px 0px 5px; float: left; padding: 0px; position: relative; background: url(../../../images/custom/featlist_img_bk.png) top center no-repeat;}
+
+.dsPROLabel{position: absolute; top: 5px; right: -1px; padding: 0px; margin: 0px;}
+
+.dsProTitle{position: absolute; top: 160px; left: 5px; font-size: 12px; font-weight: normal; color: #ffffff; width: 120px; text-align: center;}
+
+.dsProTitle a:link, .dsProTitle a:active, .dsProTitle a:visited,.dsProTitle a:hover {font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #ffffff; text-decoration:none !important; font-weight:normal; line-height: 17px;}
+
+.dsProModel{font-size: 12px; color: #ffffff; position: absolute; bottom: 10px; left: 5px; width: 120px; text-align: center;}
+
+.dsProModel a:link, .dsProModel a:active, .dsProModel a:visited,.dsProModel a:hover {font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #ffffff;	padding:0px; text-decoration:none !important; font-weight:normal;
+}
+
+#dsAlinks{
+clear:both; width: 271px; height: inherit; margin: 25px 0px 0px 10px;
+}
+
+.dsAPDF a{
+	display: block; height: 31px; width: 223px; padding: 8px 15px 0px 45px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #0a0a0a; text-decoration: none; background: url(../../../images/custom/articles/artPDFlink.jpg) top left no-repeat; margin: 20px 0px 0px 8px; font-weight: bold;
+}
+
+.dsAPDF a:hover{
+	color: #000000; text-decoration: underline;
+}
+
+.dsROverview{width: 630px; min-height: 260px; margin: 30px 0px 0px; padding: 0px 0px 0px 10px;}
+.dsRIMG{padding: 8px 8px 24px 8px; margin: 0px; width: 355px; height: 224px; float: left; background:url(../../../images/custom/recipe_main_bk.png) top left no-repeat; display: block; position: relative;}
+.dsRTxt{padding: 10px 20px; margin: 0px; float: left; width: 219px;}
+.dsRTxt h1{padding: 0px!important; margin: 0px!important; font-size: 26px; line-height: 30px;}
+.dsRTxt p{padding: 0px; margin: 0px; font-size: 12px; line-height: 16px; color: #ffffff; padding: 30px 0px 0px;}
+.dsRDivide{width: 640px; height: 2px; background: url(../../../images/custom/recipe_divider.png) top center no-repeat; display: block; margin: 3px 0px 20px 0px;}
+.dsRDetails{padding: 0px 10px 0px; width: 620px; height: inherit;}
+.dsRMethod{width: 370px; padding: 0px 20px 0px 0px; float: left;}
+.dsRMethod h3{font-family: Arial, Helvetica, sans-serif; color: #ffffff; font-weight: bold; font-size: 18px; line-height: 24px; margin: 0px; padding: 5px 0px 8px;}
+.dsRMethod ol, .dsRMethod ul{font-family: Arial, Helvetica, sans-serif; color: #ffffff; font-size: 12px; line-height: 18px; width: 350px; padding: 0px 0px 0px 20px; margin: 0px;}
+.dsRMethod li{margin: 12px 0px; padding: 0px; line-height: 18px;}
+.dsRMethod li a, .dsRMethod li a:hover{font-family: Arial, Helvetica, sans-serif; color: #ffffff; text-decoration: underline; line-height: 18px;}
+.dsRIngredients{width: 190px; padding: 15px; background: url(../../../images/custom/ingredient_bk.gif) bottom center no-repeat #efefef; float: left; position: relative; min-height: 150px;}
+.dsRIngredTitle{background: url(../../../images/custom/ingredient_title_bk.gif) bottom center no-repeat; padding: 0px 0px 25px; margin: 0px; font-family: Arial, Helvetica, sans-serif; color: #000000; font-weight: bold; font-size: 18px; line-height: 22px; }
+.dsRIngredients ol, .dsRIngredients ul{font-family: Arial, Helvetica, sans-serif; color: #000000; font-size: 12px; line-height: 18px; width: 175px; padding: 0px 0px 0px 15px; margin: 0px; list-style: square;}
+.dsRIngredients li{margin: 3px 0px; padding: 0px; line-height: 16px;}
+.dsRIngredients li a, .dsRIngredients li a:hover{font-family: Arial, Helvetica, sans-serif; color: #000000; text-decoration: underline; line-height: 18px;}
+.dsRIngredients p{font-family: Arial, Helvetica, sans-serif; color: #000000; text-decoration: none; line-height: 18px; font-size: 14px; margin: 0px; padding: 10px 0px; font-weight: bold;}
+#dsRIngredFtr{position: absolute; bottom: -21px; left: 0px; z-index: 85;}
+
+
+
+
+/*Breadcrumbs
+div.artCrumb {font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #0a0a0a; width: 600px;	padding: 0px; margin: 15px 0px 5px 8px;}
+
+div.artCrumb ul {margin: 0px; padding: 0px; list-style: none;}
+
+div.artCrumb ul li {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	float: left;
+	display: block;
+	padding-right: 5px;
+
+}
+
+div.artCrumb ul li a:link, div.artCrumb ul li a:visited {
+	text-decoration: none;
+	color: #0a0a0a;
+	padding: 0px 5px 0px 0px;
+}
+
+div.artCrumb ul li a:hover, div.artCrumb ul li a:active{
+	text-decoration: underline;
+	color: #0a0a0a;
+	padding: 0px 5px 0px 0px;
+}
+
+/*Article HUB
+
+.clear{ clear: left;}
+
+
+
+
+#dsSUBNav{
+	background: url(../../../images/custom/subNav_bk.png) left top no-repeat; width: 304px; height: 300px; display: block; padding: 100px 18px 50px 18px; position:absolute; top:0px; left:0px; z-index:80;
+}
+
+#dsSUBNav ul{
+	list-style: none; padding: 4px 0px 0px 17px; 
+}
+
+#dsSUBNav li a{
+	background: url(../../../images/custom/subNav_b1.gif) left top no-repeat; width: 181px; height: 29px; display: block; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #202020; padding: 11px 10px 0px 35px; text-decoration: none;
+}
+
+#dsSUBNav li a:hover{
+	background-position: bottom left; text-decoration: none; color: #000000
+}
+
+.dsSUBarrow a{
+	background: url(../../../images/custom/subArrow_b1.gif) top left no-repeat; width: 181px; height: 22px; display: block; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #202020; padding: 13px 10px 0px 35px; text-decoration: none; margin: 125px 0px 0px 18px;
+}
+
+.dsSUBarrow a:hover{
+	background-position: top right; text-decoration: none; color: #000000;
+}
+
+#dsCATLabel{
+	background: url(../../../images/custom/catLabel_bk.png) left top no-repeat; width: 223px; height: 37px; display: block; padding: 15px 30px 0px 51px; color: #e7e7e7; font-size: 18px; font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+.dsHAO ul{
+	list-style: none; margin: 25px 0px 0px 0px; width: 100%;
+}
+
+.dsHAO li{
+position:relative; z-index:90;	width: 234px; height: inherit; float: left; display: block; margin: 0px 7px; font-family: Arial, Helvetica, sans-serif; height: 250px;
+}
+
+.dsHAOIMG{
+	padding: 1px; border: 1px solid #d9d9d9; margin: 0px 0px 10px; width: 230px; height: 108px; display: block;
+}
+
+.dsHAOTXT{
+	padding: 10px 2px 0px 2px; width: 230px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #262626; text-decoration: none; line-height: 18px;
+}
+
+.dsHAOTXT h3{
+	font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #404040; background: url(../../../images/custom/headTag_h3.gif) left top no-repeat; line-height: 12px; padding-left: 12px; padding-bottom: 5px;
+}
+
+.dsHAOTXTlink{
+	font-family: Arial, Helvetica, sans-serif; font-size: 18px; color: #262626; line-height: 23px; text-decoration:none !important;	font-weight:normal; padding: 0px 2px; margin: 0px;
+
+}
+.dsHAOTXTlink a:link, .dsHAOTXTlink a:active, .dsHAOTXTlink a:visited,.dsHAOTXTlink a:hover {
+	font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #404040;
+	background-image:none;
+	padding:0px;
+	text-decoration:none !important;
+	font-weight:bold;
+}
+
+#dsASTabs {
+	width: 1000px; min-height: 117px; background: url(../../../images/custom/articles/article_TABbk.jpg) top center no-repeat; padding: 1px 0px 0px; margin: 35px 0px; position: relative; 
+}
+
+#dsAHList {width: 1000px; padding: 0px; margin: 35px 0px;}
+#dsAList {width: 1000px; padding: 0px; margin: 0px;}
+
+#dsASTabs ul{
+	width: 968px; list-style: none; height: 36px; margin: 0px 16px; padding: 0px;
+}
+
+#dsASTabs li {
+	float: left; margin: 0px 1px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; padding:0px; 
+}
+
+.dsAST a:link, .dsAST a:visited, .dsAST a:active {
+	width: 167px; background-image: url(../../../images/custom/articles/artselectTab.jpg); background-position: top left; background-repeat: no-repeat; height: 26px; padding: 10px 12px 0px; text-decoration: none; display: block; color: #d6d6d6;
+}
+
+.dsAST a:hover {
+	width: 167px; background-image: url(../../../images/custom/articles/artselectTab.jpg); background-position: bottom left; background-repeat: no-repeat; height: 26px; padding: 10px 12px 0px; text-decoration: none; display: block; color: #333333;}
+
+
+
+
+
+.dsAImg{
+	padding: 1px; border: 1px solid #d9d9d9; width: 120px; height: 120px; display: block; float: left;
+}
+
+.dsACon{float: left; padding: 5px 0px 0px 16px; width: 160px;}
+
+.dsATitle{
+	width: 100%; font-size: 16px; font-weight: normal; color: #404040; margin-top: 0px; font-family: Arial, Helvetica, sans-serif;
+}
+
+.dsATitle a:link, .dsATitle a:active, .dsATitle a:visited, .dsATitle a:hover {
+	font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #404040;	padding:0px; text-decoration:none !important; font-weight:bold;
+}
+
+.dsATxt{
+	font-size: 11px; color: #404040; font-family: Arial, Helvetica, sans-serif; 
+}
+
+.dsATxt a:link, .dsATxtl a:active, .dsATxt a:visited, .dsATxt a:hover {
+	font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #404040;	padding:0px; text-decoration:none !important; font-weight:normal;
+}
+
+.dsASLArrow{
+	position: absolute; z-index:95; left: 0px; top: 158px; display: block;
+}
+
+.dsASRArrow{
+	position: absolute; z-index:95; right: -10px; top: 158px; display: block;
+}
+
+#dsAZContent{
+	width: 100%; height: inherit; margin: 0px; padding: 0px;
+}
+
+.dsAZColum{
+	float: left; margin: 0px 11px 30px; width: 310px; height: inherit;
+}
+
+.dsAZColum h2{
+	margin: 20px 0px; display: block; width: 300px; height: inherit; font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #404040; text-decoration: none; padding: 0px; line-height: 18px; font-weight: normal;
+}
+
+.dsAZColum a:link, .dsAZColum a:active, .dsAZColum a:visited{
+	margin: 10px 0px; display: block; width: 298px; height: inherit; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #404040; text-decoration: none; background:url(../../../images/custom/articles/a-zlist_img.gif) top left no-repeat; padding: 0px 0px 0px 12px; line-height: 12px;
+}
+
+.dsAZColum a:hover{
+	text-decoration: underline; color: #000000;
+}
+
+#Articles {
+clear:both;
+position:relative;
+z-index:80;
+min-height:200px;
+width:1000px;
+}
+
+#dsASSShold {
+position: relative;
+z-index:92;
+width:1000px;
+min-height:180px;
+margin: -30px 0px 0px;
+}
+
+#dsASScrHold {
+position:relative;
+z-index:80;
+width:1000px;
+min-height:140px;
+overflow:hidden;
+}
+
+#dsASScrItem {
+position:absolute;
+z-index:80;
+top:0px;
+left:0px;
+width:3000px;
+min-height:140px;
+}
+
+#dsALContent{width: 980px; position: relative; margin: 0px; padding: 0px;}
+
+/* article page
+#dsACMid{float: left; width: 443px; height: inherit; margin: 0px 13px;}
+#dsACMid h1{width:400px; padding: 10px 0px 0px; font-weight: normal;}
+#dsAContent h1, .dsADate{padding: 0px 0px 0px 20px; font-weight: normal;}
+
+#dsACLeft{ float: left; width: 206px; height: inherit; margin: 0px; padding: 10px; background:url(../../../images/custom/articles/artMenu_bk.gif) top left no-repeat; min-height: 300px;}
+
+#dsACLeft h3{width: 180px; height: 24px; display: block; font-family: Arial, Helvetica, sans-serif; color: #d4d4d4; padding: 6px 13px; text-decoration: none; font-size: 16px; font-weight: normal; margin: 0px 0px 5px; line-height: 21px;}
+
+#dsACLeft ul{width: 167px; list-style-image: url(../../../images/custom/articles/listDart_img.gif); padding: 0px 13px 0px 24px; margin: 0px;}
+
+#dsACLeft li a{width: 100%; height: inherit; display: block; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #202020; padding: 0px; text-decoration: none; margin: 10px 0px; line-height: 16px;}
+
+#dsACLeft li a:hover{text-decoration: underline; color: #000000;}
+
+.dsADate{
+ font-family: Arial, Helvetica, sans-serif; font-size: 12px; text-decoration: none; color: #404040; line-height: 13px; margin: 14px 0px 0px 0px; 
+}
+
+
+
+.dsAIMGtxt{margin: 15px 0px 0px; width: 100%; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #0a0a0a; line-height: 16px;}
+
+.dsMAtxt{width: 100%; font-family: Arial, Helvetica, sans-serif; font-size: 12px; text-decoration: none; color: #0a0a0a; margin: 0px 0px 0px;}	
+
+.dsMAtxt h3{
+	font-size: 16px; font-weight: normal; margin: 15px 0px 0px; width: 100%; color: #0a0a0a;
+}
+
+.dsMAtxt p{font-size: 12px; text-decoration: none; color: #404040; line-height: 18px; padding: 0px; margin: 20px 0px 0px;}
+
+.dsMAtxt ul{
+	width: 418px; margin: 20px 0px 0px 25px; padding: 0px;
+ } 
+
+.dsMAtxt ul li{ 
+	padding: 0px 0px 10px 0px; line-height: 18px; font-size: 12px; 
+}
+
+.dsMAtxt ol{
+	width: 418px; margin: 20px 0px 0px 25px; padding: 0px;
+}
+
+.dsMAtxt ol li{
+	padding: 0px 0px 10px 0px; line-height: 18px; font-size: 12px;
+}
+
+.dsSTEP123{
+	position: absolute; top: 15px; right: 15px; 
+}
+
+.dsGALLERY{
+	position: absolute; top: 13px; right: 15px; 
+}
+
+#dsASteps{
+	width: 440px; height: 231px; background: url(../../../images/custom/articles/stepbystep_bk.jpg) top left no-repeat; margin: 20px 0px 0px; display: block; border: 1px solid #d9d9d9; padding: 0px;
+}
+
+.dsSTEPTitle {
+	font-size: 15px; font-family: Arial, Helvetica, sans-serif; position: relative; width: 425px; padding: 17px 0px 14px 15px; font-weight: normal;
+}
+
+.dsSTEPImg{
+	width: 438px; margin: 0px 1px; padding: 0px;
+}
+
+.dsSTEPTxt{
+	width: 408px; font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #0a0a0a; text-decoration: none; margin: 13px 15px 0px; padding: 0px;
+}
+
+.dsASVideo{
+	position:relative; z-index:50; width: 443px !important; height: inherit; margin: 20px 0px 0px; overflow:hidden; font-family: Arial, Helvetica, sans-serif; text-decoration: none; font-size: 12px; padding: 0px; color: #0a0a0a;
+}
+
+.dsASVideo h3{
+	padding: 20px 0px 0px; font-size: 16px; font-family: Arial, Helvetica, sans-serif; text-decoration: none; font-weight: normal;
+}
+
+.dsASVideo p{
+	margin: 20px 0px 0px; width: 100%; font-size: 12px; font-family: Arial, Helvetica, sans-serif; text-decoration: none; line-height: 18px; color: #0a0a0a;
+}
+
+#dsACRight{
+	float: left; width: 291px; height: inherit; margin: 0px;
+}
+
+.dsALSocial{position: absolute; top: 0px; right: 15px; display: block;}
+.dsASocial{margin: 15px 0px 8px;}
+
+.dsAShare{
+	position: absolute; top: 15px; right: 15px;
+}
+
+#dsPROLike{
+	position: absolute; top: 12px; left: 180px; width:150px;
+
+}
+
+/****STYLES BELOW ARE ALREADY IN MAINPAGE.CSS but need amending for article page
+
+.dsCatHmenu{
+	float: right; padding: 40px 0px 25px; width: 320px; height: inherit;
+}
+
+.dsCatHmenu h3{
+	width: 290px; height: inherit; display: block; font-family: Arial, Helvetica, sans-serif; color: #202020; padding: 0px 10px 10px 20px; text-decoration: none; border-bottom: 1px #000000 dotted; font-family:Arial, Helvetica, sans-serif; font-size: 13px; font-weight: bold; margin: 0px; line-height: 13px;
+}
+
+.dsCatHmenu ul{
+	width: 100%; list-style: none; padding: 0px; margin: 0px;
+}
+
+.dsCatHmenu li a{
+	background: url(../../../images/custom/subMETANav_b1.gif) left top no-repeat; width: 255px; height: 28px; display: block; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #202020; padding: 14px 10px 0px 55px; text-decoration: none; border-bottom: 1px #000000 dotted;
+}
+
+.dsCatHmenu li a:hover{
+	background-position: bottom left; text-decoration: none;
+}
+
+#dsARProd{
+	padding: 10px; width: 271px; background: url(../../../images/custom/articles/artPro_bk.gif) top left no-repeat; height: inherit;
+}
+
+#dsARProd h3{width:245px; height: 24px; display: block; font-family: Arial, Helvetica, sans-serif; color: #d4d4d4; padding: 7px 13px; text-decoration: none; font-size: 16px; font-weight: normal; margin: 0px 0px 5px; line-height: 21px;}
+
+#dsARTProSML{
+	width: 271px; height: inherit; margin: 18px 0px 0px; padding: 0px;
+}
+
+.dsPROList{
+	width: 271px; height: 130px; display: block; text-align: left; position: relative; margin: 0px; border-bottom: 1px solid #e5e5e5; padding: 0px;
+}
+
+.dsPROLabel{
+	position: absolute; top: 0px; left: 0px; width: 98px; height: 108px; padding: 0px; margin: 0px;
+}
+
+.dsProDetails{
+	float: left; width: 138px;
+}
+
+.dsProTitle{
+	margin: 20px 0px 0px; font-size: 14px; font-weight: normal; color: #0a0a0a; width: 100%;
+}
+
+.dsProTitle a:link, .dsProTitle a:active, .dsProTitle a:visited,.dsProTitle a:hover {
+	font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #0a0a0a; text-decoration:none !important; font-weight:normal; line-height: 18px;
+}
+
+.dsProModel{
+	font-size: 12px; color: #0a0a0a; padding: 5px 0px 0px;
+}
+
+.dsProModel a:link, .dsProModel a:active, .dsProModel a:visited,.dsProModel a:hover {
+	font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #0a0a0a;	padding:0px; text-decoration:none !important; font-weight:normal;
+}
+
+.dsProIMG{
+	float: left; margin: 10px 10px 0px; width: 98px; height: 108px; padding: 0px;
+}
+
+.dsPrices{
+		position:absolute; bottom:47px; left: 10px; text-align: center; width: 140px;
+}
+
+.dsNormal{
+	font-size: 14px; color: #404040; font-family:Arial, Helvetica, sans-serif; text-align: center;
+}
+
+.dsWas{ 
+	font-size: 12px; color: #404040; text-decoration: line-through; margin-right: 5px;
+}
+
+.dsSpecial{ 
+	font-size: 14px; color: #cd202c;
+}
+
+.dsInStock{
+	position:absolute; bottom:35px; left: 10px; font-size: 10px; color: #81827d; width: 140px; text-align: center;
+}
+
+.dsPrice, .dsWas, .dsSpecial, .dsInStock, .dsProModel, .dsProTitle{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.dsPRObut{
+	position:absolute; bottom:0px; left: 17px;
+}
+
+.dsDMorebtn{
+	padding: 0px 0px 0px 10px;
+}
+
+.dsAProBtn{position: absolute; bottom: 10px; right: 5px;}
+
+#dsAlinks{
+clear:both; width: 271px; height: inherit; margin: 25px 0px 0px 10px;
+}
+
+.dsAPDF a{
+	display: block; height: 31px; width: 223px; padding: 8px 15px 0px 45px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #0a0a0a; text-decoration: none; background: url(../../../images/custom/articles/artPDFlink.jpg) top left no-repeat; margin: 20px 0px 0px 8px; font-weight: bold;
+}
+
+.dsAPDF a:hover{
+	color: #000000; text-decoration: underline;
+}
+
+
+
+#dsANItems{
+/*	width: 960px;
+padding: 10px 5px 0px;
+}
+
+#dsANItems ul{
+	width: 100%; list-style: none;
+}
+
+#dsANItems li {
+	float:left; width: 140px; background: url(../../../images/custom/artITEM_bk.gif) top left no-repeat; height: 315px; margin: 0px; padding: 10px 10px 0px;font-family: Arial, Helvetica, sans-serif; 
+}
+
+
+
+
+
+
+
+#galleryTitle {
+position:absolute;
+z-index:99;
+top:36px;
+left:32px;
+height:25px;
+width:500px;
+padding:0px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:18px;
+font-weight:bold;
+}
+
+#galleryLB {
+position:relative;
+z-index:98;
+height:627px;
+width:686px;
+background-image: url('../../images/custom/lightbox_bk.png');
+background-position: top left;
+background-repeat:no-repeat;
+padding:0px;
+margin:0px;
+}
+
+#dsGalleryThumbOne, #dsGalleryThumbTwo {
+position:absolute;
+z-index:60;
+top:73px;
+left:32px;
+width:201px;
+height:69px;
+background-image: url('../../images/custom/thumbBar_2.jpg');
+background-position: top left;
+background-repeat:no-repeat;
+}
+	
+#dsGalleryThumbThree {
+position:absolute;
+z-index:60;
+top:73px;
+left:32px;
+width:295px;
+height:69px;
+background-image: url('../../images/custom/thumbBar_3.jpg');
+background-position: top left;
+background-repeat:no-repeat;
+}
+
+#dsGalleryThumbFour {
+position:absolute;
+z-index:60;
+top:73px;
+left:32px;
+width:387px;
+height:69px;
+background-image: url('../../images/custom/thumbBar_4.jpg');
+background-position: top left;
+background-repeat:no-repeat;
+}
+
+#dsGalleryThumbFive {
+position:absolute;
+z-index:60;
+top:73px;
+left:32px;
+width:480px;
+height:69px;
+background-image: url('../../images/custom/thumbBar_5.jpg');
+background-position: top left;
+background-repeat:no-repeat;
+}
+
+#dsGalleryThumbSix {
+position:absolute;
+z-index:60;
+top:73px;
+left:32px;
+width:573px;
+height:69px;
+background-image: url('../../images/custom/thumbBar_6.jpg');
+background-position: top left;
+background-repeat:no-repeat;
+}
+
+#dsGalleryThumbSelect{
+position:absolute;
+z-index:60;
+top:0px;
+left:0px;
+width:89px;
+height:50px;
+border: 2px solid #CE1F2C;
+}
+
+#dsGalleryArrow {
+position:absolute;
+top:-18px;
+left:36px;
+width:11px;
+height:10px;
+z-index:60;
+text-align:center;
+}
+
+#dsGalleryThumbItems{
+position:absolute;
+top:8px;
+left:8px;
+z-index:50;
+}
+
+.dsGalleryT {
+padding:2px;
+margin:0px;
+position:relative;
+float:left;
+width:89px;
+height:50px;
+}
+
+
+#dsGalleryHolder {
+position:absolute;
+top:160px;
+left:32px;
+width:618px;
+height:458px;
+overflow:hidden; 
+padding:0px;
+margin:0px;
+background-image:none !important;
+}
+
+#dsGallerySlider {
+position:absolute;
+top:0px;
+left:0px;
+width:10000px;
+height:458px;
+overflow:hidden; 
+}
+
+
+.dsGalleryI {
+padding:0px;
+margin:0px;
+position:relative;
+float:left;
+z-index:50;
+width:618px;
+height:458px;
+overflow:hidden; 
+}
+
+
+.dsGalleryTOne {
+padding:0px 10px 0px 30px;
+margin:10px 0px 0px 0px;
+position:relative;
+height:100px;
+background-image: url('../../images/custom/step_1.gif');
+background-position: top left;
+background-repeat:no-repeat;
+line-height:20px;
+font-family: Arial, Helvetica, sans-serif; 
+font-size: 12px; 
+color: #202020;
+}
+
+
+.dsGalleryTTwo {
+padding:0px 10px 0px 30px;
+margin:10px 0px 0px 0px;
+position:relative;
+height:100px;
+background-image: url('../../images/custom/step_2.gif');
+background-position: top left;
+background-repeat:no-repeat;
+line-height:20px;
+font-family: Arial, Helvetica, sans-serif; 
+font-size: 12px; 
+color: #202020;
+}
+
+
+.dsGalleryTThree {
+padding:0px 10px 0px 30px;
+margin:10px 0px 0px 0px;
+position:relative;
+height:100px;
+background-image: url('../../images/custom/step_3.gif');
+background-position: top left;
+background-repeat:no-repeat;
+line-height:20px;
+font-family: Arial, Helvetica, sans-serif; 
+font-size: 12px; 
+color: #202020;
+}
+
+
+.dsGalleryTFour {
+padding:0px 10px 0px 30px;
+margin:10px 0px 0px 0px;
+position:relative;
+height:100px;
+background-image: url('../../images/custom/step_4.gif');
+background-position: top left;
+background-repeat:no-repeat;
+line-height:20px;
+font-family: Arial, Helvetica, sans-serif; 
+font-size: 12px; 
+color: #202020;
+}
+
+
+.dsGalleryTFive {
+padding:0px 10px 0px 30px;
+margin:10px 0px 0px 0px;
+position:relative;
+height:100px;
+background-image: url('../../images/custom/step_5.gif');
+background-position: top left;
+background-repeat:no-repeat;
+line-height:20px;
+font-family: Arial, Helvetica, sans-serif; 
+font-size: 12px; 
+color: #202020;
+}
+
+
+.dsGalleryTSix {
+padding:0px 10px 0px 30px;
+margin:10px 0px 0px 0px;
+position:relative;
+height:100px;
+background-image: url('../../images/custom/step_6.gif');
+background-position: top left;
+background-repeat:no-repeat;
+line-height:20px;
+font-family: Arial, Helvetica, sans-serif; 
+font-size: 12px; 
+color: #202020;
+}
+
+
+.dsGalleryTSeven {
+padding:0px 10px 0px 30px;
+margin:10px 0px 0px 0px;
+position:relative;
+height:100px;
+background-image: url('../../images/custom/step_7.gif');
+background-position: top left;
+background-repeat:no-repeat;
+line-height:20px;
+font-family: Arial, Helvetica, sans-serif; 
+font-size: 12px; 
+color: #202020;
+}
+
+
+.dsGalleryTEight {
+padding:0px 10px 0px 30px;
+margin:10px 0px 0px 0px;
+position:relative;
+height:100px;
+background-image: url('../../images/custom/step_8.gif');
+background-position: top left;
+background-repeat:no-repeat;
+line-height:20px;
+font-family: Arial, Helvetica, sans-serif; 
+font-size: 12px; 
+color: #202020;
+}
+
+.dsGalLArrow{
+	position: absolute; z-index:99; left: 20px; top: 310px; display: block;
+}
+
+.dsGalLArrow a {
+	display:none;
+}
+.dsGalRArrow{
+	position: absolute; z-index:99; right: 25px; top: 310px; display: block;
+}
+
+.dsHMargin{
+	margin: 20px 0px 0px -10px;	
+}
+
+#dsRIng{width: 413px; height: inherit; margin: 20px 0px 0px; background-color: #f9f9f9; padding: 15px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #0a0a0a;}
+.dsRIngTitle{font-family: Arial, Helvetica, sans-serif; font-weight: normal; color: #0a0a0a; font-size: 16px; width: 100%; text-decoration: none; margin: 0px 0px 15px 0px;}
+
+.dsRIngLeft{border-right: solid 1px #e0e0e0; width: 191px; padding: 0px 15px 0px 0px; float: left; line-height: 18px; margin: 0px;}
+.dsRIngRight{width: 191px; padding: 0px 0px 0px 15px; float: right; line-height: 18px; margin: 0px;}
+
+.dsRIngLeft ul{margin: 0px 0px 0px 15px; padding: 0px; width: 176px; } 
+.dsRIngRight ul{margin: 0px 0px 0px 15px; padding: 0px; width: 176px;} 
+.dsRIngLeft ul li, .dsRIngRight ul li{padding: 0px; margin: 10px 0px 0px; line-height: 18px; font-size: 12px; width: 176px;}

@@ -1,0 +1,315 @@
+body {background: url(../../../images/custom/textured_meta_bk.jpg) top center no-repeat #000000;}
+#dsCRESTstrip {background: url(../../../images/custom/strips/crest.jpg) top center no-repeat; padding: 0px 0px 0px; height: 25px;}
+#dsContent{height: inherit; text-align:left; width: 960px; \/*IE 5.x hack*/; margin: 0px auto; padding: 20px 0px;}
+#dsContent h1{font-size: 26px; font-weight: bold; line-height: 32px; color: #ffffff; padding: 0px; margin: 25px 0px 0px;}
+.dsLOGLeft{float: left; width: 460px; padding: 0px; margin: 0px;}
+.dsLOGRight{float: right; width: 380px; margin: 0px 10px 0px 0px; padding: 20px; background: url(../../../images/custom/register_bk.gif) top left no-repeat #ffffff; position: relative;}
+.dsLOGLeft h2, .dsLOGRight h2{font-size: 16px; font-weight: bold; line-height: 20px; padding: 0px; margin: 0px;}
+.dsLOGLeft h2{color: #ffffff;}
+.dsLOGRight h2{color: #000000; padding: 0px 0px 30px 0px!important;}
+.dsLOGLeft p, .dsLOGLeft a, .dsLOGLeft a:hover{font-size: 12px; line-height: 16px; color: #ffffff; padding: 0px; margin: 0px;}
+.dsLOGLeft a, .dsLOGLeft a:hover, .dsLOGRight a, .dsLOGRight a:hover{text-decoration: underline;}
+.dsLOGRight p, .dsLOGRight a, .dsLOGRight a:hover{font-size: 12px; line-height: 16px; color: #000000; padding: 0px; margin: 0px;}
+.dsLOGSection{width: 480px; position: relative; font-family: Arial, Helvetica, sans-serif; padding: 30px 0px 0px; margin: 0px;}
+.dsFLOGSection {width: 480px; min-height: 50px; background: url(../../../images/custom/login_bk.png) top center no-repeat; font-family: Arial, Helvetica, sans-serif; padding: 28px 0px 0px; margin: 25px 0px 0px; position: relative;}
+.dsFLOGSection p{width: 400px; padding: 30px 0px 0px;}
+#dsRequiredTxt{text-align:right; margin:0px auto; font-family:Arial, Helvetica, sans-serif;	font-weight:bold; font-size: 12px; color:#ffffff;
+text-decoration: none; position: absolute; top: 30px; right: 10px;}
+#dsRequiredWTxt{text-align:right; margin:0px auto; font-family:Arial, Helvetica, sans-serif; font-weight:bold; font-size: 12px; color:#000000;
+text-decoration: none; position: absolute; top: 20px; right: 20px;}
+.dsRequired{color: #da2128!important;}
+
+.dsLOGInput input.formitem, .dsLOGInput textarea.formitem {display: block; text-align:left; font-family: Arial, Helvetica, sans-serif; font-size: 12px; margin: 3px 0px 0px; padding: 5px; border: #202020 1px solid; color: #000000; height: 18px; width: 228px; background: url(../../../images/custom/inputField_bk.gif) top left repeat-x #d1d1d1;}
+.dsLOGInput select.formitem {display: block; text-align:left; font-family: Arial, Helvetica, sans-serif; font-size: 12px; margin: 3px 0px 0px; padding: 5px; border: #202020 1px solid; color: #000000; min-width: 240px; background-color: #d1d1d1;}
+.dsLOGInput, .dsREGInput {padding: 20px 0px 0px; height: 50px;}
+.dsLOGInput label{font-size: 12px; diplay: block; color: #ffffff; font-family: Arial, Helvetica, sans-serif; padding: 0px; margin: 0px;}
+.dsLOGBtn, .dsFLOGBtn {clear: both; text-align:right; margin:0px auto; padding: 30px 240px 0px 0px;}
+
+.dsREGInput label{font-size: 12px; diplay: block; color: #000000; font-family: Arial, Helvetica, sans-serif; padding: 0px; margin: 0px;}
+
+.dsREGInput input.forminput, .dsREGInput textarea.forminput {display: block; text-align:left; font-family: Arial, Helvetica, sans-serif; font-size: 12px; margin: 3px 0px 0px; padding: 5px; border: #dddddd 1px solid; color: #000000; height: 18px; width: 228px; background-color: #f6f6f6;}
+
+.dsREGInput select.forminput {display: block; text-align:left; font-family: Arial, Helvetica, sans-serif; font-size: 12px; margin: 3px 0px 0px; padding: 5px; border: #dddddd 1px solid; color: #000000; min-width: 240px;  background-color: #f6f6f6;}
+
+.dsREGTick label{font-size: 12px; diplay: block; color: #000000; font-family: Arial, Helvetica, sans-serif; padding: 0px 0px 0px 10px; margin: 0px; float: left; width: 350px;}
+
+.dsREGTick {margin: 20px 0px; padding: 0px;}
+.dsREGTick input.forminput {clear:both; float: left; padding: 0px!important; margin: 0px;}
+
+.dscheckoutTerms{float: left; padding:0px 0px 0px 10px;	text-align:left; margin:0px; color: #ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 16px;}
+.dscheckoutTerms a, .dscheckoutTerms a:hover{color: #ffffff; font-family: Arial, Helvetica, sans-serif; text-decoration: underline;}
+.dsAGREETick {float: left;	padding: 0px 0px 0px 15px!important;	margin: 0px 0px 0px 15px!important;}
+.dsREGBtn{clear: both; text-align:right;	padding: 0px; margin: 25px 0 0 0;}
+
+.dsLOGOFF{width: 700px;}
+
+.dsLOGOFF p, .dsLOGOFF a, .dsLOGOFF a:hover{font-size: 12px; line-height: 16px; color: #ffffff; padding: 25px 0px 0px; margin: 0px;}
+.dsLOGOFF a, .dsLOGOFF a:hover{text-decoration: underline;}
+
+/*div.dsloginInput {
+	clear:both;
+	margin-top: 3px;
+	
+	
+}
+
+div.dsloginInput label {
+	float:left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	display: block;
+	width: 100px;
+	font-weight:normal;
+	padding-top: 3px;
+	
+}
+
+div.dsloginInput input.forminput {
+	float:left;
+	height: 16px;
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #666666;
+	text-align:left;
+	width: 180px;
+	padding: 3px;
+	
+
+}
+div.dsloginInput password.forminput {
+	background-color: #ffffff;
+	height: 16px;
+	border: 1px solid #cccccc;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #666666;
+	text-align:left;
+	padding: 3px;
+	width:200px;
+
+}
+div.dsreminderInput label {
+	float:left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	display: block;
+	width: 100px;
+	padding-top: 3px;
+	font-weight:normal;
+	
+}
+div.dsreminderInput input.forminput {
+	float:left;
+	height: 16px;
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #666666;
+	text-align:left;
+	padding: 3px;
+	width: 200px;
+
+}
+
+
+#dsloginButton{
+	clear: both;
+	text-align:right;
+	margin:0px auto;
+	padding-top:20px;
+	padding-right:53px;
+}
+
+
+
+#dsLLeftBox {
+	float: left;
+	width: 345px;
+	text-decoration: none;
+	height: inherit;
+}
+
+
+div.dsLoginTitle{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: STYLE_LOGIN_TITLE_SIZE;
+	color:#STYLE_LOGIN_TITLE_COLOUR;
+	
+}
+
+#dsPassForgot{
+margin-top:40px;
+}
+
+
+#dsLPageBox{
+border: 1px solid #cccccc;
+background-color: #STYLE_LOGIN_OUTLINE_BACKGROUND;
+width:100%;
+height:300px;
+padding: 0px;
+}
+
+#dsLoginErrors{
+margin: 0px 0px 0px 0px;
+}
+
+#dsloginSection{
+	padding: 17px 0px 20px 20px;
+	font-size:12px;
+	text-align:left;
+}
+
+#dsregisterSection{
+	padding: 17px 0px 30px 0px;
+	font-size: 12px;
+	text-align: left;
+}
+
+#dsLRightBox {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	float: left;
+	text-decoration: none;
+	padding-left:45px;
+	padding-right:0px;
+	height: 700px;
+	width: 350px;
+}
+
+#dsLRightBox p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+
+#dsLRightBox a{
+	color: #000000;
+	text-decoration: none;
+}
+
+#dsLRightBox a:hover{
+	color: #000000;
+	text-decoration: underline;
+}
+
+#dssendButton{
+	clear: both;
+	text-align:right;
+	padding-right:53px;
+}
+
+
+#dsvlogoff{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	text-align:left;
+	margin-bottom:50px;
+}
+
+#dsvlogoff p {
+margin-top:10px;
+}
+
+
+
+
+div.dsregisterInput {
+	clear:both;
+	margin-top: 4px;
+	
+	
+}
+div.dsregisterInput label {
+	float:left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	display: block;
+	width: 140px;
+	font-weight: normal;
+	padding-top: 3px;
+	
+}
+
+div.dsregisterInput input.forminput {
+	float:left;
+	height: 16px;
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+	margin: 0px 0px 3px 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	text-align:left;
+	width: 180px;
+	padding: 3px;
+	
+}
+div.dsregisterInput select.forminput {
+	display: block;
+	float: left;
+	height: 20px;
+	padding: 0px 0px 0px 5px;
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	text-align:left;
+	width:186px;
+	margin: 0px 0px 3px 0px;
+
+}
+
+div.dsregisterTick {
+	clear:both;
+	padding-top: 5px;
+	margin-top: 5px;
+	
+	
+}
+div.dsregisterTick label {
+float:left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	display: block;
+	font-weight:normal;
+	padding-top: 3px;
+	
+}
+div.dsregisterTick input.forminput {
+	display: block;
+	float: left;
+	height: 20px;
+	padding: 3px;
+	color: #666666;
+	text-align:left;
+	width:30px;
+
+}
+#dsregisterButton{
+	clear: both;
+	text-align:right;
+	padding-right:25px;
+	margin: 10px 0 0 0;
+}
+.dsinputRequirement{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	color:#ff0000;
+	font-style: normal;
+	text-decoration: none;
+}
+

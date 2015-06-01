@@ -1,0 +1,24 @@
+body {background: url(../../../images/custom/textured_meta_bk.jpg) top center no-repeat #000000;}
+#contentHolder {background: url(../../../images/custom/strips/crest.jpg) top center no-repeat; padding: 25px 0px 0px !important;}
+#dsContent{height: inherit; text-align:left; width: 960px; \/*IE 5.x hack*/; margin: 0px auto; padding: 0px;}
+.dsMETAleft{float: left; width: 610px; padding: 25px 0px 0px 10px; margin: 0px;}
+.dsMETAleft h1{font-size: 26px; font-weight: bold; line-height: 32px; color: #ffffff; padding: 0px; margin: 30px 0px 0px;}
+.dsMETAleft h2{font-size: 21px; font-weight: bold; line-height: 24px; color: #ffffff; padding: 0px; margin: 35px 0px 0px;}
+.dsMETAleft h3{font-size: 16px; font-weight: bold; line-height: 20px; color: #ffffff; padding: 0px; margin: 30px 0px 0px;}
+.dsMETAleft p, .dsMETAleft a, .dsMETAleft a:hover{font-size: 12px; line-height: 18px; color: #ffffff; padding: 15px 0px 0px; margin: 0px;}
+.dsMETAleft a, dsMETAleft a:hover{text-decoration: underline;}
+.dsMETAleft ol, .dsMETAleft ul{font-family: Arial, Helvetica, sans-serif; color: #ffffff; font-size: 12px; line-height: 18px; padding: 0px 0px 0px 40px; margin: 0px; width: 580px;}
+.dsMETAleft li{margin: 15px 0px; padding: 0px; line-height: 18px;}
+
+.dsCIMG{background-color: #ffffff; padding: 8px; margin: 35px 20px 35px 0px; width: 505px; position: relative; height: 284px;}
+.dsIMGLeftCorner, .dsIMGRightCorner{width: 100px; height: 87px; display: block; z-index: 90;}
+.dsIMGLeftCorner{position: absolute; top: -20px; left: -20px;}
+.dsIMGRightCorner{position: absolute; bottom: -20px; right: -20px;}
+
+.dsABOUTtxt{width: 520px; /*height: inherit;*/}
+.dsWRImg{float: left; margin: 0px 20px 0px 0px;}
+.dsSection{width: 610px; background: url(../../../images/custom/acSection_bk.png) top center no-repeat; font-family: Arial, Helvetica, sans-serif; padding: 0px 0px 0px; margin: 30px 0px 0px; position: relative;}
+.clear{font-size: 0px;}
+.dsASVideo {background-color: #ffffff; padding: 8px; margin: 25px auto; width: 504px; position: relative; height: 284px; display: block; z-index: 80;}
+
+.dsREGSection{width: 610px; background: url(../../../images/custom/acSection_bk.png) top center no-repeat; font-family: Arial, Helvetica, sans-serif; padding: 2px 0px 0px; margin: 30px 0px 0px; position: relative; clear:left;}

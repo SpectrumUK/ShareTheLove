@@ -1,0 +1,186 @@
+body {background: url(../../../images/custom/textured_meta_bk.jpg) top center no-repeat #000000;}
+#contentHolder {background: url(../../../images/custom/strips/crest.jpg) top center no-repeat; padding: 25px 0px 0px !important;}
+#dsContent{height: inherit; text-align:left; width: 960px; \/*IE 5.x hack*/; margin: 0px auto; padding: 0px;}
+.dsMETAleft{float: left; width: 610px; padding: 25px 0px 0px 10px; margin: 0px;}
+.dsMETAleft h1{font-size: 26px; font-weight: bold; line-height: 32px; color: #ffffff; padding: 0px; margin: 30px 0px 0px;}
+.dsMETAleft h2{font-size: 16px; font-weight: bold; line-height: 20px; color: #ffffff; padding: 0px; margin: 35px 0px 0px;}
+.dsMETAleft h3{font-size: 16px; font-weight: bold; line-height: 20px; color: #ffffff; padding: 0px; margin: 15px 0px 0px;}
+.dsMETAleft p, .dsMETAleft a, .dsMETAleft a:hover{font-size: 12px; line-height: 18px; color: #ffffff; padding: 15px 0px 0px; margin: 0px;}
+.dsMETAleft a, dsMETAleft a:hover{text-decoration: underline;}
+.dsMETAleft ol, .dsMETAleft ul{font-family: Arial, Helvetica, sans-serif; color: #ffffff; font-size: 12px; line-height: 18px; padding: 0px 0px 0px 30px; margin: 0px; width: 580px;}
+.dsMETAleft li{margin: 10px 0px 0px; padding: 0px; line-height: 18px;}
+
+div.dsRegisterInput input.formitem, #datepicker1, #datepicker2, .dsRegisterInputOther input.formitem{display: block; text-align:left; font-family: Arial, Helvetica, sans-serif; font-size: 12px; margin: 3px 0px 0px; padding: 5px; border: #202020 1px solid; color: #000000; height: 18px; width: 228px; background: url(../../../images/custom/inputField_bk.gif) top left repeat-x #d1d1d1;
+}
+
+div.dsRegisterInput select.formitem {display: block; text-align:left; font-family: Arial, Helvetica, sans-serif; font-size: 12px; margin: 3px 0px 0px; padding: 5px; border: #202020 1px solid; color: #000000; min-width: 240px; background-color: #d1d1d1;}
+
+div.dsTickInput input {
+	padding: 0px;
+	display: block;
+	height: 13px;
+	float: left;
+	margin: 20px 10px 0px 0px!important;
+}
+
+.additionalText{float: left; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 16px; padding: 0px; margin: 18px 0px 0px 0px; color: #ffffff;}
+
+div.dsRegisterInput textarea.formitem {margin: 3px 0px 0px; padding: 5px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; height:auto !important;	display: block; resize: none; width: 228PX; background: url(../../../images/custom/textField_bk.gif) top left repeat-x #d1d1d1!important;}
+
+div.dsRegisterInput {
+	padding: 20px 30px 0px 0px;;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	clear: both;
+}
+
+div.dsRegisterInput label {
+	font-size: 12px; diplay: block; color: #ffffff; font-family: Arial, Helvetica, sans-serif;
+}
+
+#dsRegisterTick {
+	position:relative;
+	float: left;
+	margin: 20px 0px 0px;
+	padding: 10px 0px 0px;
+	font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #4d4d4d;
+	width: 100%;
+}
+
+.dsRegisterText {
+position:absolute;
+float: left;
+top:0px;
+left:0px;
+font-family: Arial, Helvetica, sans-serif; font-size: 12px;
+
+}
+
+div.dsRegisterAgree {
+	float: left;
+	margin: 20px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #ffffff;
+}
+
+.dsTick {
+	float: left;
+	padding: 0px!important;
+	margin: 0px 10px 20px 3px!important;
+}
+
+div.dsRegisterTick label {
+	padding: 10px 0px 0px 0px!important;
+	display: block;
+	float: left;
+	height: 12px;
+	color: #ffffff;
+	margin: 0px!important;
+	font-weight: normal;
+	text-align: left;
+}
+
+div.dsRegisterTick input {
+	padding: 0px;
+	display: block;
+	height: 13px;
+	float: left;
+	margin: 10px 10px 0px 10px!important;
+}
+
+div.dsRegisterRadio {
+	float: left;
+	padding: 20px 0px 0px 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #ffffff;
+	height: 14px;
+	display: block;
+}
+
+div.dsRegisterRadio input {
+	margin: 0px 20px 0px 10px!important; padding: 0px!important; height: 13px;
+}
+
+div.dsRegisterRadio label{
+	float: left;
+	padding: 0px 10px 0px 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #ffffff;
+}
+
+div.dsRegisterDrop {
+	padding: 20px 0px 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+
+div.dsRegisterDrop label{
+	float: left;
+	/*padding: 10px 10px 0px 0px;*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #ffffff;
+	width: 650px;
+	display: block;
+}
+
+div.dsRegisterDrop select, div.dsRegisterDrop select.formitem {display: block; text-align:left; font-family: Arial, Helvetica, sans-serif; font-size: 12px; margin: 3px 10px 20px 0px; padding: 3px; border: #202020 1px solid; color: #000000; float: left; min-width: 70px; background-color: #d1d1d1;}
+
+#dsREGButton{
+clear: both;
+float: none;
+margin: 40px 0px 0px;
+}
+
+.dsREGSection{width: 610px; background: url(../../../images/custom/acSection_bk.png) top center no-repeat; font-family: Arial, Helvetica, sans-serif; padding: 15px 0px 0px; margin: 30px 0px 0px; position: relative; clear:left;}
+#dsRequiredTxt{text-align:right; margin:0px auto; font-family:Arial, Helvetica, sans-serif;	font-weight:bold; font-size: 12px; color:#ffffff;
+text-decoration: none; position: absolute; top: 30px; right: 20px;}
+.dsRequired{color: #da2128!important;}
+
+div.clear label{clear: both;}
+
+div.dsRegProInput select.formitem {display: block; text-align:left; font-family: Arial, Helvetica, sans-serif; font-size: 12px; margin: 3px 0px 0px; padding: 5px; border: #202020 1px solid; color: #000000; min-width: 240px; background-color: #d1d1d1; height: 200px;}
+
+div.dsRegProInput {margin: 20px 0px 0px 0px; padding: 0px;}
+
+div.dsRegProInput label {
+	font-size: 12px; diplay: block; color: #ffffff; font-family: Arial, Helvetica, sans-serif;
+}
+
+div.dsRegProInput input.formitem{display: block; text-align:left; font-family: Arial, Helvetica, sans-serif; font-size: 12px; margin: 3px 0px 0px; padding: 5px; border: #202020 1px solid; color: #000000; height: 18px; width: 228px; background: url(../../../images/custom/inputField_bk.gif) top left repeat-x #d1d1d1;
+}
+
+.ProBox {float:left; height:120px; width:180px;	margin:5px 20px 20px 0px; padding: 5px; background: url(../../../images/custom/textField_bk.gif) top left repeat-x #d1d1d1!important; border: #202020 1px solid; resize: none; font-family: Arial, Helvetica, sans-serif; font-size: 12px;}
+
+#OtherBox, #OtherRetail{clear: both;}
+
+#OtherBox label {font-size: 12px; diplay: block; color: #ffffff; font-family: Arial, Helvetica, sans-serif; margin: 20px 0px 0px 0px;}
+#OtherRetail label {font-size: 12px; diplay: block; color: #ffffff; font-family: Arial, Helvetica, sans-serif; margin: 0px;}
+
+#OtherBox input.formitem{display: block; text-align:left; font-family: Arial, Helvetica, sans-serif; font-size: 12px; margin: 3px 0px 0px; padding: 5px; border: #202020 1px solid; color: #000000; height: 18px; width: 228px; background: url(../../../images/custom/inputField_bk.gif) top left repeat-x #d1d1d1;}
+#OtherRetail input.formitem{display: block; text-align:left; font-family: Arial, Helvetica, sans-serif; font-size: 12px; margin: 3px 0px 0px; padding: 5px; border: #202020 1px solid; color: #000000; height: 18px; width: 228px; background: url(../../../images/custom/inputField_bk.gif) top left repeat-x #d1d1d1; clear: left;}
+
+div.dsREGTickSection{width: 610px; background: url(../../../images/custom/acSection_bk.png) top center no-repeat; font-family: Arial, Helvetica, sans-serif; padding: 15px 0px 0px; margin: 30px 0px 0px; position: relative; clear:left; min-height: 30px;}
+
+div.dsREGTickSection label {
+	font-size: 12px; diplay: block; color: #ffffff; font-family: Arial, Helvetica, sans-serif; float: left; padding: 2px 0px 0px 0px;
+}
+
+#dsRegisterAgree {float: left; margin: 0px 0px 0px 10px; padding: 0px 0px 0px 0px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #ffffff; clear: right;}
+
+.dsMessWarning {font-family:Arial, Helvetica, sans-serif;	font-weight:bold; font-size: 12px;	margin: 10px 0px 0px; color:#da2128; font-style: normal; text-decoration: none;}
+
+#termsBTN, #termsBTNDE, #termsBTNFR, #termsBTNNL, #termsBTNUA, #termsBTNBG, #termsBTNRU {display: block; margin: 0px !important; padding: 0px !important; position: relative; width: 610px; height: 1px;}
+#termsBTN p, #termsBTNDE p, #termsBTNFR p, #termsBTNNL p, #termsBTNUA p, #termsBTNBG p, #termsBTNRU P {margin: 0px !important; padding: 0px !important; position: relative; top: -30px; }
+
+#termsBTN p{left: 275px!important;}
+#termsBTNBG p{left: 300px!important;}
+#termsBTNDE p{left: 500px!important;}
+#termsBTNFR p{left: 450px!important;}
+#termsBTNNL p{left: 350px!important;}
+#termsBTNUA p{left: 320px!important;}
+#termsBTNRU p{left: 360px!important;}

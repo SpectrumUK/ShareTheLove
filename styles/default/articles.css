@@ -1,0 +1,128 @@
+body {background: url(../../../images/custom/textured_microsite_bk.jpg) top center no-repeat #000000;}
+object{position: relative; z-index: 50;}
+#dsPROstrip{background-position: top center; background-repeat: no-repeat; width: 100%; padding: 0px; margin: 0px;}
+#dsCRESTstrip{background: url(../../../images/custom/strips/crest.jpg) top center; background-repeat: no-repeat; width: 100%; padding: 0px; margin: 0px; }
+
+/***** Main Content ******/
+#dsContent{position:relative;height: inherit; text-align:left; width: 960px; \/*IE 5.x hack*/; margin: 0px auto; z-index: 90;}
+.breadCrumb{margin: 0px 0px 0px 10px!important;}
+.addthis {float: right; text-align: right; margin: 0px 10px 0px 0px;}
+
+.dsTOPContent{background:url(../../../images/custom/content_bk.png) top center no-repeat; padding: 20px 0px 0px; }
+.dsHUBContent{background:url(../../../images/custom/content_home_bk.png) top center no-repeat; padding: 40px 0px 0px; }
+.dsTOPContent h1{font-size: 26px; font-weight: bold; line-height: 32px; color: #ffffff; padding: 0px; margin: 0px 0px 0px 10px;}
+.dsHAO ul{clear:both; margin:0; padding:0; list-style:none; width: 100%;}
+.dsHAO ul li{position: relative; z-index:10; float: left; width: 220px; margin: 20px 10px 0px; display: block;}
+.dsHAOHolder{background: url(../../../images/custom/nested_cat_bk.png) bottom center no-repeat; padding:0px 0px 20px 0px; display: block; width: 100%; min-height: 345px;}
+.dsHAOImg a{display: block; width: 220px; height: 148px; border: none;}
+.dsHAOTitle /*a, #dsnestTitle a:hover*/ {padding: 0px 10px 0px; margin: 0px; width: 200px; height: 40px; line-height: 19px; font-family: Arial, Helvetica, sans-serif; color: #000000; font-size: 16px; text-decoration: none; display: block; font-weight: bold;}
+.dsHAOTxt {padding: 15px 10px 0px; margin: 0px; width: 200px; line-height: 16px; font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: #000000;}
+
+.dsHAOTxt p {line-height: 16px; font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: #000000; text-decoration: none; margin: 0px; padding: 0px;}
+
+.dsSUBitem ul{height: inherit; padding: 0px!important; margin: 0px!important; list-style: none; border-top: 1px #818181 dashed;}
+.dsSUBitem ul li {margin: 0px; padding: 0px;}
+.dsSUBitem ul li a{background: url(../../../images/custom/rightMenu_arrow.gif) top left no-repeat; width: 180px; height: inherit; display: block; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #ffffff; padding: 15px 10px 15px 30px!important; text-decoration: none; border-bottom: 1px #818181 dashed; margin: 0px!important; line-height: 18px;}
+.dsSUBitem li a:hover, .dsSUBitem li a:active{text-decoration: underline; color: #ffffff;}
+
+
+/***** Article Content ******/
+.addthisA {float: left; text-align: left; margin: 0px 10px 0px 0px;}
+.dsARTleft{float: left; width: 620px; padding: 25px 0px 0px 10px; margin: 0px; position: relative; z-index: 40;}
+.dsARTleft h1{font-size: 26px; font-weight: bold; line-height: 32px; color: #ffffff; padding: 0px; margin: 30px 0px 0px;}
+.dsARTleft h2, .dsARTleft h3{font-size: 16px; font-weight: bold; line-height: 20px; color: #ffffff; padding: 0px; margin: 15px 0px 0px;}
+
+.dsARTleft p, .dsARTleft a, .dsARTleft a:hover{font-size: 12px; line-height: 18px; color: #ffffff; padding: 15px 0px 0px; margin: 0px;}
+.dsARTleft a, dsARTleft a:hover{text-decoration: underline;}
+.dsARTleft ol, .dsARTleft ul{font-family: Arial, Helvetica, sans-serif; color: #ffffff; font-size: 12px; line-height: 18px; width: 490px; padding: 0px 0px 0px 20px; margin: 0px;}
+.dsARTleft li{margin: 15px 0px; padding: 0px; line-height: 18px;}
+
+.dsAIMG{background-color: #ffffff; padding: 8px; margin: 35px 20px; width: 505px; position: relative; height: 284px;}
+.dsASVideo, .dsAFLASH{background-color: #ffffff; padding: 8px; margin: 35px 20px; width: 504px; position: relative; height: 284px; display: block; z-index: 80;}
+
+.dsIMGLeftCorner, .dsIMGRightCorner{width: 100px; height: 87px; display: block; z-index: 90;}
+.dsIMGLeftCorner{position: absolute; top: -20px; left: -20px;}
+.dsIMGRightCorner{position: absolute; bottom: -20px; right: -20px;}
+
+.dsATitle, .dsMAtxt, .dsADisclaimer{margin: 0px 0px 0px 20px!important; width: 520px;}
+.dsADisclaimer p, .dsADisclaimer a, .dsADisclaimer a:hover{font-size: 11px;}
+
+.dsMAtxt h5{font-size: 11px; color: #ffffff; text-decoration: none;}
+
+.dsAGHolder{background: url(../../../images/custom/articles/galleryThumb_bk.png) top center no-repeat; width: 560px; height: 238px; position: relative; padding: 0px; margin: 15px 0px 0px;}
+.dsAGTitle, .dsAGTxt p{margin: 0px; width: 215px; font-family: Arial, Helvetica, sans-serif; color: #ffffff; text-decoration: none; }
+.dsAGTitle {padding: 50px 0px 0px 25px; line-height: 20px; font-size: 16px; font-weight: bold;}
+.dsAGTxt p{padding: 15px 0px 0px 25px; line-height: 18px; font-size: 12px;}
+.dsAGImg{position: absolute; top: 2px; right: 0px;}
+
+/**** Gallery Lightbox ****/
+
+#galleryTitle {position:absolute; z-index:99; top: 25px; left:15px; height:25px; width: 600px; padding: 0px; font-family: Arial, Helvetica, sans-serif; font-size:18px; line-height: 22px; color: #000000; font-weight: bold;}
+
+#galleryLB {position:relative; z-index:98; min-height:675px; width:659px; background-image: url('../../images/custom/lightbox_bk.png'); background-color: #000000; background-position: top center; background-repeat:no-repeat;
+padding:0px; margin:0px;}
+
+#dsGalleryThumbOne, #dsGalleryThumbTwo, #dsGalleryThumbThree, #dsGalleryThumbFour, #dsGalleryThumbFive, #dsGalleryThumbSix, #dsGalleryThumbSeven, #dsGalleryThumbEight {position:absolute; z-index:60; top:68px; left:15px; width:630px; height:53px;}
+
+#dsGalleryThumbSelect{position:absolute; z-index:60; top:0px; left:0px; width:88px; height:50px; border-bottom: 3px solid #e1001a;}
+
+#dsGalleryArrow {position:absolute; top:-18px; left:36px; width:11px; height:10px; z-index:60; text-align:center;}
+
+#dsGalleryThumbItems{position:absolute; top:0px; left:0px; z-index:50;}
+
+.dsGalleryT {padding:0px; margin:0px 2px 0px 0px; position: relative; float:left; width: 88px; height:50px;}
+.dsGalleryTOne, .dsGalleryTTwo, .dsGalleryTThree, .dsGalleryTFour, .dsGalleryTFive, .dsGalleryTSix, .dsGalleryTSeven, .dsGalleryTEight, .dsGalleryTBlank {width: 610px; padding: 20px 25px; margin: 0px;} 
+
+.dsGalleryTOne p , .dsGalleryTTwo p, .dsGalleryTThree p, .dsGalleryTFour p, .dsGalleryTFive p, .dsGalleryTSix p, .dsGalleryTSeven p, .dsGalleryTEight p, .dsGalleryTBlank p {font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 18px; color: #000000; text-decoration: none; padding: 0px; margin: 0px;} 
+
+.dsGalleryTOne a , .dsGalleryTTwo a, .dsGalleryTThree a, .dsGalleryTFour a, .dsGalleryTFive a, .dsGalleryTSix a, .dsGalleryTSeven a, .dsGalleryTEight a, .dsGalleryTOne a:hover, .dsGalleryTTwo a:hover, .dsGalleryTThree a:hover, .dsGalleryTFour a:hover, .dsGalleryTFive a:hover, .dsGalleryTSix a:hover, .dsGalleryTSeven a:hover, .dsGalleryTEight a:hover, .dsGalleryTBlank a, .dsGalleryTBlank a:hover {font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 18px; color: #000000; text-decoration: underline; padding: 0px; margin: 0px;}
+
+
+#dsGalleryHolder {position:absolute; top:129px; left:0px; width:659px; height:inherit; min-height: 515px; overflow: hidden; padding:0px; margin:0px; background-image:none !important;}
+
+#dsGallerySlider {position:absolute; top:0px; left:0px; width:10000px; height: inherit; overflow:hidden;}
+
+
+.dsGalleryI {padding:0px; margin:0px; position:relative; float:left; z-index:50; width:659px; height:inherit;}
+.dsGalleryTImg{padding: 0px; margin: 0px;}
+
+.dsGalLArrow{position: absolute; z-index:99; left: 10px; top: 290px; display: block;}
+
+.dsGalLArrow a {display:none;}
+.dsGalRArrow{position: absolute; z-index:99; right: 10px; top: 290px; display: block;}
+
+#dsARProd{width: 290px; height: inherit; margin: 0px; padding: 30px 0px 0px;}
+
+.dsARFeatTitle{width:290px; height: 24px; display: block; font-family: Arial, Helvetica, sans-serif; color: #ffffff; padding: 0px; text-decoration: none; font-size: 16px; font-weight: bold; margin: 0px; line-height: 21px;}
+
+#dsARTProSML{width: 290px; height: inherit; margin: 0px; padding: 0px;}
+
+.dsPROList{width: 130px; height: 240px; display: block; text-align: left; position: relative; margin: 20px 10px 0px 5px; float: left; padding: 0px; position: relative; background: url(../../../images/custom/featlist_img_bk.png) top center no-repeat;}
+
+.dsPROLabel{position: absolute; top: 5px; right: -1px; padding: 0px; margin: 0px;}
+
+.dsProTitle{position: absolute; top: 160px; left: 5px; font-size: 12px; font-weight: normal; color: #ffffff; width: 120px; text-align: center;}
+
+.dsProTitle a:link, .dsProTitle a:active, .dsProTitle a:visited,.dsProTitle a:hover {font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #ffffff; text-decoration:none !important; font-weight:normal; line-height: 17px;}
+
+.dsProModel{font-size: 12px; color: #ffffff; position: absolute; bottom: 10px; left: 5px; width: 120px; text-align: center;}
+
+.dsProModel a:link, .dsProModel a:active, .dsProModel a:visited,.dsProModel a:hover {font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #ffffff;	padding:0px; text-decoration:none !important; font-weight:normal;
+}
+
+#dsAlinks{
+clear:both; width: 271px; height: inherit; margin: 25px 0px 0px 10px;
+}
+
+.dsAPDF a{
+	display: block; height: 31px; width: 223px; padding: 8px 15px 0px 45px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; text-decoration: none; background: url(../../../images/custom/articles/artPDFlink.gif) top left no-repeat; margin: 15px 0px 0px 8px; font-weight: bold; color: #ffffff;
+}
+
+.dsAPDF a:hover{
+	color: #ffffff; text-decoration: underline; margin: 15px 0px 0px 8px;  padding: 8px 15px 0px 45px; 
+}
+
+table{border-collapse:collapse; margin: 30px 0px;}
+table, td, th{border: 1px solid #666666; font-family: Arial, Helvetica, sans-serif; }
+th{height: 20px; background-color:#000000; vertical-align: middle; font-weight: bold; padding: 4px 5px; margin: 2px 0px; font-size: 14px; color: #ffffff;}
+td{font-size: 12px; vertical-align: middle; padding: 4px 5px; margin: 0px; /*background-image: url(../../../images/custom/form_notes_bk.png); background-repeat: repeat; background-position: bottom right;*/ color: #ffffff;}

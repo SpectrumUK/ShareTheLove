@@ -1,0 +1,87 @@
+body {background: url(../../../images/custom/textured_meta_bk.jpg) top center no-repeat #000000;}
+#contentHolder {background: url(../../../images/custom/strips/crest.jpg) top center no-repeat; padding: 25px 0px 0px !important;}
+#dsContent{height: inherit; text-align:left; width: 960px; \/*IE 5.x hack*/; margin: 0px auto; padding: 0px;}
+
+.dsMETA{width: 960px; padding: 25px 0px 0px; margin: 0px;}
+.dsMETA h1{font-size: 26px; font-weight: bold; line-height: 32px; color: #ffffff; padding: 0px; margin: 30px 0px 0px;}
+.dsMETA h2{font-size: 16px; font-weight: bold; line-height: 20px; color: #ffffff; padding: 0px; margin: 35px 0px 0px;}
+.dsMETA p, .dsMETA a, .dsMETA a:hover{font-size: 12px; line-height: 16px; color: #ffffff; padding: 30px 0px 0px; margin: 0px;}
+.dsMETA a, dsMETA a:hover{text-decoration: underline;}
+
+.dsMessWarning {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	margin: 10px 0px 0px;
+	color: #da2128;
+	font-style: normal;
+	text-decoration: none;
+}
+
+#address ul{width: 100%; list-style: none; margin: 0px; padding: 0px;}
+
+#address li{float: left; min-height: 210px;	width: 200px; margin: 30px 10px 0px; padding: 10px; background-color: #efefef; position: relative;}
+
+#address a{color: #000000;}
+
+.dsCUlistTitle {background: url(../../../images/custom/address_title_bk.gif) bottom center no-repeat; height: 40px; font-family: Arial, Helvetica, sans-serif; font-size: 18px; text-decoration: none; color: #000000; padding: 0px; margin: 0px !important; display: block; line-height: 22px; font-weight: bold;}
+.dsCUlistContent{font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: #000000; line-height: 16px; padidng: 5px 0px 0px; margin: 0px;}
+.dsCUlistFtr{position: absolute; bottom: -15px; left: 0px; z-index: 85;}
+
+.dsMETAleft{float: left; width: 610px; padding: 25px 0px 0px 10px; margin: 0px;}
+.dsMETAleft h1{font-size: 26px; font-weight: bold; line-height: 32px; color: #ffffff; padding: 0px; margin: 30px 0px 0px;}
+.dsMETAleft h2{font-size: 16px; font-weight: bold; line-height: 20px; color: #ffffff; padding: 0px; margin: 35px 0px 0px;}
+.dsMETAleft p, .dsMETAleft a, .dsMETAleft a:hover{font-size: 12px; line-height: 16px; color: #ffffff; padding: 30px 0px 0px; margin: 0px;}
+.dsMETAleft a, dsMETAleft a:hover{text-decoration: underline;}
+
+.dsCIMG{background-color: #ffffff; padding: 8px; margin: 35px 20px 35px 0px; width: 505px; position: relative; height: 284px;}
+.dsIMGLeftCorner, .dsIMGRightCorner{width: 100px; height: 87px; display: block; z-index: 90;}
+.dsIMGLeftCorner{position: absolute; top: -20px; left: -20px;}
+.dsIMGRightCorner{position: absolute; bottom: -20px; right: -20px;}
+
+.dscontactInput input.forminput, .dscontactInput select.forminput, .dscontactInput textarea.forminput {display: block; text-align:left; font-family: Arial, Helvetica, sans-serif; font-size: 12px; margin: 3px 0px 0px; padding: 5px; border: #202020 1px solid; color: #000000; height: 18px; width: 228px; background: url(../../../images/custom/inputField_bk.gif) top left repeat-x #d1d1d1;}
+
+.dscontactInput textarea.forminput {height:auto !important;	display: block; resize: none; width: 510px !important; background: url(../../../images/custom/textField_bk.gif) top left repeat-x #d1d1d1!important;}
+
+.dscontactInput {float: left; padding: 30px 40px 0px 0px;}
+
+.dscontactInput label, .dscontactTick label{font-size: 12px; display: block; color: #ffffff; font-family: Arial, Helvetica, sans-serif;}
+
+div.dscontactInput select.forminput {height:auto !important; background-color: #d1d1d1 !important;}
+
+div.dsRegisterDrop {
+	padding: 20px 0px 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	float: left;
+}
+
+div.dsRegisterDrop label {
+	float: left;
+	/*padding: 10px 10px 0px 0px;*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #ffffff;
+	width: 650px;
+	display: block;
+}
+
+div.dsRegisterDrop select,
+div.dsRegisterDrop select.forminput {display: block; text-align:left; font-family: Arial, Helvetica, sans-serif; font-size: 12px; margin: 3px 10px 0px 0px; padding: 5px; border: #202020 1px solid; color: #000000; float: left; min-width: 100px; background-color: #d1d1d1 !important;}
+
+
+div.dsRegisterDrop select.forminput.query_box {width: 240px;}
+
+
+.dscontactTick {float: left; margin: 0px; padding: 20px 0px 0px;}
+
+.dsTick {clear:both; float: left; padding: 0px!important; margin: 0px !important;}
+
+.dscontactTick label {padding: 0px 0px 0px 10px; float: left; width: 500px;	margin: 0px !important;}
+
+#dsContactButton{text-align: right; padding: 20px 0px 0px; width: 520px;}
+
+.dsCUForm{width: 100%; margin: 0px ; padding: 0px;}
+
+.dsRequired{color: #da2128; text-decoration: none; font-weight: bold;}

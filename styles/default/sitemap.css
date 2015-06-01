@@ -1,0 +1,19 @@
+body {background: url(../../../images/custom/textured_meta_bk.jpg) bottom center no-repeat #000000;}
+#contentHolder {background: url(../../../images/custom/strips/crest.jpg) top center no-repeat; padding: 25px 0px 0px !important;}
+#dsContent{height: inherit; text-align:left; width: 960px; \/*IE 5.x hack*/; margin: 0px auto; padding: 0px;}
+.dsSMAPleft{float: left; width: 640px; padding: 25px 0px 0px 10px; margin: 0px;}
+.dsSMAPleft h1{font-size: 26px; font-weight: bold; line-height: 32px; color: #ffffff; padding: 0px; margin: 30px 0px 0px;}
+.dsSMAPleft h2{font-size: 16px; font-weight: bold; line-height: 20px; color: #ffffff; padding: 0px; margin: 35px 0px 0px;}
+.dsSMAPleft p, .dsSMAPleft a, .dsSMAPleft a:hover{font-size: 12px; line-height: 16px; color: #ffffff; padding: 15px 0px 0px; margin: 0px;}
+.dsSMAPleft a, dsMETAleft a:hover{text-decoration: underline;}
+.dsSMAP ul{font-family: Arial, Helvetica, sans-serif; color: #ffffff; font-size: 14px; line-height: 18px; padding: 0px; margin: 30px 45px 0px 0px; width: 275px; list-style: none; float: left;}
+.dsSMAP ul li{margin: 0px 0px 20px; padding: 16px 10px 15px 30px; width: 235px; float: left; height: inherit;background: url(../../../images/custom/siteMap_arrow.gif) top left no-repeat;}
+.dsSMAP ul li a, .dsSMAP ul li a:hover{line-height: 18px; font-family: Arial, Helvetica, sans-serif; font-size: 14px;}
+.dsSMAP ul li a, .dsSMAP ul li ul li a{text-decoration: none;}
+.dsSMAP ul li a:hover, .dsSMAP ul li ul li a:hover{text-decoration: underline;}
+.dsSMAP ul li ul{margin: 25px 0px 0px; padding: 0px;}
+.dsSMAP ul li ul li{margin: 6px 0px; padding: 0px; float: none; background: none; border: none; }
+.dsSMAP ul li ul li a, .dsSMAP ul li ul li a:hover{line-height: 16px; font-size: 12px; font-family: Arial, Helvetica, sans-serif;}
+.dsSMAP ul li ul li ul{margin: 0px; padding: 0px 0px 10px 20px; list-style: square;}
+.dsSMAP ul li ul li ul li{margin: 6px 0px; padding: 0px; float: none; background: none; border: none; }
+.dsSMAP ul li ul li ul li a, .dsSMAP ul li ul li ul lia:hover{line-height: 16px; font-size: 12px; font-family: Arial, Helvetica, sans-serif;}

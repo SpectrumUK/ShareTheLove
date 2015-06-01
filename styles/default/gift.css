@@ -1,0 +1,33 @@
+/* CSS Document */
+/* gift ideas */
+.dropForm{
+	margin: 18px 0px 0px 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.giftProducts h2{
+	margin: 18px 0 0 0;
+}
+
+.giftProducts ul{
+	width: 100%;
+	list-style-type: none;
+}
+
+.giftProducts li{
+	float:left;
+	margin: 0px 15px 10px 0px;
+	text-align: center;
+	width: 140px;
+}
+
+.giftProducts a{
+	color: #000000;
+	text-decoration: none;
+}
+
+.giftProducts a:hover{
+	color: #000000;
+	text-decoration: underline;
+}

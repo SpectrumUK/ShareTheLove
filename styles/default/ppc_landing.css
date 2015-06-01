@@ -1,0 +1,305 @@
+#upperPPCMenu {
+	height: 36px;
+	padding: 0 25px 0 25px!important;
+	margin: 0px;
+	float: left;
+}
+
+#upperPPCMenu ul{
+	list-style: none;
+	height: 36px;
+	width: 100%;	
+}
+
+#upperPPCMenu li{
+	list-style: none;
+	float: left;
+	height: 36px;
+}
+
+#upperPPCMenu a{
+	display: block;
+	height: 36px;
+
+}
+
+#upperPPCMenu a.lk01{
+	width: 96px;
+	background-image: url(../../../images/custom/ppc/glass_kettles_b1.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#upperPPCMenu a.lk02{
+	width:144px;
+	background-image: url(../../../images/custom/ppc/polished_kettles_b1.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+
+}
+
+#upperPPCMenu a.lk03{
+	width:143px;
+	background-image: url(../../../images/custom/ppc/brushed_kettles_b1.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#upperPPCMenu a.lk04{
+	width:98px;
+	background-image: url(../../../images/custom/ppc/white_kettles_b1.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#upperPPCMenu a.lk05{
+	width:97px;
+	background-image: url(../../../images/custom/ppc/black_kettles_b1.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#upperPPCMenu a.lk06{
+	width:116px;
+	background-image: url(../../../images/custom/ppc/coloured_kettles_b1.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#upperPPCMenu a.li01{
+	width: 90px;
+	background-image: url(../../../images/custom/ppc/steam_irons_b1.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#upperPPCMenu a.li02{
+	width:125px;
+	background-image: url(../../../images/custom/ppc/steamgen_irons_b1.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+
+}
+
+#upperPPCMenu a.li03{
+	width:88px;
+	background-image: url(../../../images/custom/ppc/travel_irons_b1.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#upperPPCMenu a.lt01{
+	width: 103px;
+	background-image: url(../../../images/custom/ppc/glass_toasters_b1.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#upperPPCMenu a.lt02{
+	width:151px;
+	background-image: url(../../../images/custom/ppc/polished_toasters_b1.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+
+}
+
+#upperPPCMenu a.lt03{
+	width:149px;
+	background-image: url(../../../images/custom/ppc/brushed_toasters_b1.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#upperPPCMenu a.lt04{
+	width:106px;
+	background-image: url(../../../images/custom/ppc/white_toasters_b1.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#upperPPCMenu a.lt05{
+	width:103px;
+	background-image: url(../../../images/custom/ppc/black_toasters_b1.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#upperPPCMenu a.lt06{
+	width:126px;
+	background-image: url(../../../images/custom/ppc/coloured_toasters_b1.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#upperPPCMenu a:hover{
+
+	background-position:left bottom;
+
+}
+
+#rightPPCContent{
+	padding: 20px 20px 0px;
+	width: 920px;
+}
+
+#rightPPCContent p{
+	font-size: 12px;
+	color: #000000;
+	margin: 15px 0 0 0;
+}
+
+#rightPPCContent ul{
+	list-style: none;
+	width: 100%;
+}
+
+#rightPPCContent li{
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	margin-top: 15px;	
+}
+
+/* nested categories */
+#nestPPCCat ul{
+	width: 100%;
+	list-style-type: none;
+}
+
+#nestPPCCat li{
+	float: left;
+	padding: 0px 12px 20px !important; 
+	width: 280px;
+}
+
+#nestPPCCat h2{
+	padding: 8px 2px 0px 2px;
+	text-decoration: none;
+	display: block;
+	font-size: 16px;
+}
+
+#nestPPCCat h2 a:hover{
+	text-decoration: none;
+	display: block;
+}
+
+#nestPPCCat p{
+	padding: 0px 2px 0px 2px;
+	margin: 10px 0px 0px 0px;
+}
+
+.fromPrice{
+	padding: 0px 2px 0px 2px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #7a0a06;
+	font-weight: bold;
+	text-decoration: none;	
+	width: 276px;
+	height: 25px;
+	position: relative;
+}
+
+.viewPPCBut{
+	display: block;
+	position: absolute;
+	top: -7px;
+	left: 165px;
+}
+
+.catPPCDetails{
+	width: 100%;
+	text-align: left;
+}
+
+.catPPCDetails img{
+	border-color: #e1e1e1;
+	width: auto;
+	height: auto;
+}
+
+#footerPPCHolder { 
+	background-image: url(../../../images/custom/ppc/footer_bk.gif);
+	background-position: left bottom;
+	background-repeat: repeat-x;
+	width: 100%;
+	height: 25px;
+	padding: 10px 0px 0px;
+	margin: 10px 0px 0px;
+}
+
+.lcrPPC{
+	width: 300px;
+	margin: 0 390px 0 30px;
+	height: 26px;
+	font-size: 11px;
+	color: #999999;
+	float: left;
+}
+
+#footerPPC{
+	width: 100%;
+	height: 33px;
+}
+
+#footerPPC ul{
+	list-style: none;
+	width: auto;
+	float: left;
+	padding: 0 29px 0 29px;
+	line-height: 1;
+}
+
+#footerPPC li{
+	margin: 0 0 4px 0;
+	color: #999999;
+	line-height: 0.9;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	padding: 0px !important;
+}
+
+
+#footerPPC a{
+	color: #999999;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	font-size: 11px;
+	padding: 0px !important;
+}
+
+#footerPPC a:hover{
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+/*Breadcrumbs*/
+div.breadCrumb a{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #0a0a0a;
+	padding: 7px 0px 0px 15px;
+}
+div.breadCrumb ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+div.breadCrumb ul li {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	float: left;
+	display: block;
+	padding-right: 5px;
+
+}
+div.breadCrumb a:link, div.breadCrumb a:visited {
+	text-decoration: none;
+	color: #0a0a0a;
+}
+div.breadCrumb a:hover, div.breadCrumb a:active{
+	text-decoration: underline;
+	color: #0a0a0a;
+}

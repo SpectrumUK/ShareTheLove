@@ -1,0 +1,681 @@
+
+a:link { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 100%; color: #666666; font-weight: normal; text-decoration: none; }
+a:visited { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 100%; color: #666666; font-weight: normal; text-decoration: none; }
+a:active { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 100%; color: #666666; font-weight: normal; text-decoration: none; }
+a:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 100%; color: #666666; font-weight: normal; text-decoration: none; }
+
+h1{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size: 200%;
+	color:#cccccc;
+	font-style: normal;
+	text-decoration: none;
+}
+
+a.navTableItem:link, a.navTableItem:visited{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size: 100%;
+	color:#e4e4e4;
+	font-style: normal;
+	text-decoration: none;
+}
+a.navTableItem:hover{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size: 100%;
+	color:#f4f4f4;
+	font-style: normal;
+	text-decoration: none;
+	background-color: #;
+}
+a.navTableItemHighlight:link, a.navTableItemHighlight:visited{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size: 100%;
+	color:#ffffff;
+	font-style: normal;
+	text-decoration: none;
+	background-color: #;
+}
+a.navTableItemHighlight:hover{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size: 100%;
+	color:#f4f4f4;
+	font-style: normal;
+	text-decoration: none;
+}
+a.footerItem:link, a.footerItem:visited, a.footerItem:hover{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size: 100%;
+	color:#ffffff;
+	font-style: normal;
+	text-decoration: none;
+}
+
+.main, a.main:link, a.main:visited{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size: 100%;
+	color:#333333;
+	font-style: normal;
+	text-decoration: none;
+}
+a.main:hover{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size: 100%;
+	color:#333333;
+	font-style: normal;
+	text-decoration: none;
+}
+
+.specialPriceLink, a.specialPriceLink:link, a.specialPriceLink:visited{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size: 100%;
+	color:#ff0000;
+	font-style: normal;
+	text-decoration: none;
+}
+a.specialPriceLink:hover{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size: 100%;
+	color:#EA0000;
+	font-style: normal;
+	text-decoration: none;
+}
+.productsSpecialPrice{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size: 100%;
+	color:#ff0000;
+	font-style: normal;
+	text-decoration: none;
+}
+
+.novatprice, a.novatprice:link, a.novatprice:visited{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size: 80%;
+	color:#666666;
+	font-style: normal;
+	text-decoration: none;
+}
+
+.productHeading {  
+	background: #D8D8D8;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size: 140%;
+	color:#666666;
+	font-style: normal;
+	text-decoration: none;
+}
+
+  .formitem {
+	margin:0px;
+	padding:0px;
+	background-color: #ffffff;
+	border: 1px solid #d4d4d4;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	font-weight: bold;
+	color: #666666;
+}
+
+.featureTableHeading{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size: 120%;
+	color:#333333;
+	font-style: normal;
+	text-decoration: none;
+}
+a.underlineLink:link, a.underlineLink:visited{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size: 100%;
+	color:#666666;
+	font-style: normal;
+	text-decoration: underline;
+}
+a.underlineLink:hover{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size: 100%;
+	color:#333333;
+	font-style: normal;
+	text-decoration: underline;
+}
+
+.accessoryHeading{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size: 100%;
+	color:#275b97;
+	font-style: normal;
+	text-decoration: none;
+}
+.smallNoUnderline, a.smallNoUnderline:link, a.smallNoUnderline:visited, a.smallNoUnderline:hover{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size: 80%;
+	color:#666666;
+	font-style: normal;
+	text-decoration: none;
+}
+a.smallNoUnderline:hover{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size: 80%;
+	color:#333333;
+	font-style: normal;
+	text-decoration: none;
+}
+.insufficientStock{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size: 100%;
+	color:#ff0000;
+	font-style: normal;
+	text-decoration: none;
+}
+.inputRequirement{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size: 100%;
+	color:#ff0000;
+	font-style: normal;
+	text-decoration: none;
+}
+a.tableButtons:link, a.tableButtons:visited {
+	background-color: #000000;
+	padding: 0px;
+	border: 1px solid #999999;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 80%;
+	color: #f4f4f4;
+	font-weight: bold;
+	text-decoration: none;
+
+}
+a.tableButtons:hover {
+	background-color: #666666;
+	padding: 0px;
+	border: 1px solid #999999;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 80%;
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.boxHeader{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size: 100%;
+	color:#275b97;
+	font-style: normal;
+	text-decoration: none;
+}
+
+.discount, a.discount:link, a.discount:visited, a.discount:hover{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size: 100%;
+	color:#ff0000;
+	font-style: normal;
+	text-decoration: none;
+}
+.stepHeader{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size: 110%;
+	color:#ff0000;
+	font-style: normal;
+	text-decoration: none;
+}
+.stepCurrent{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size: 100%;
+	color:#ff0000;
+	font-style: normal;
+	text-decoration: none;
+}
+.pageHeading{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size: 100%;
+	color:#999999;
+	font-style: normal;
+	text-decoration: none;
+}
+
+.purchaseItem{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size: 120%;
+	color:#ff0000;
+	font-style: normal;
+	text-decoration: none;
+}
+.dsHPc {
+	background: #ffffff;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size: 100%;
+	color:#999999;
+	font-style: normal;
+	text-decoration: none;
+}
+.errorBox {
+	background: #ff0000;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size: 100%;
+	color:#ffffff;
+	font-style: normal;
+	text-decoration: none;
+}
+
+.productPageBasketItemsHeader {
+	background: #EAF1FB;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size: 100%;
+	color:#275B97;
+	font-style: normal;
+	text-decoration: none;
+}
+.productPageBasketHeader {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size: 100%;
+	color:#275B97;
+	font-style: normal;
+	text-decoration: none;
+}
+.productPageBasketEmpty {
+	color:#ff0000;
+	font-weight:bold;
+}
+.additionalItemsHeading{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size: 100%;
+	color:#275b97;
+	font-style: normal;
+	text-decoration: none;
+}
+.priceTableHeading{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size: 120%;
+	color:#333333;
+	font-style: normal;
+	text-decoration: none;
+}
+.despatchNote {  
+background: #ffb600;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size: 100%;
+	color:#275B97;
+	font-style: normal;
+	text-decoration: none;
+}
+.listingPrice, a.listingPrice:link, a.listingPrice:visited, a.listingPrice:hover{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size: 100%;
+	color:#999999;
+	font-style: normal;
+	text-decoration: none;
+}
+
+.despatchNoteBack {  
+background: #0000ff;
+}
+
+
+.navTableInner {
+	background: #;
+}
+.navTableInnerhigh {
+	background: #;
+}
+
+.leftMenu {  
+background: #ffffff;
+}
+
+.bottomNavRow {
+background: #;
+}
+
+.verticalBar {
+	background-image: url(../../../images/page/vertical_dots.gif);
+}
+.horizontalBar {
+	background-image: url(../../../images/page/horizontal_dots.gif);
+}
+
+
+.compareBox{
+	background: #D8D8D8;
+}
+.compareContents{
+	background: #ffffff;
+}
+.compareEven{
+	background: #e4e4e4;
+}
+.compareOdd{
+	background: #f4f4f4;
+}
+.blockTableShow {display:table;}
+
+.blockTableHide {display:none;}
+
+
+.accessoriesColumn{
+	background: #f4f4f4;
+}
+
+
+.boxOutline {  
+background: #e4e4e4;
+}
+.boxInner {  
+background: #ffffff;
+}
+
+.productPageBasketBackround {
+background: #f4f4f4;
+}
+
+.productPageBasketItems {
+background: #F2F7FD;
+}
+
+
+.subCategoryTableRow{
+	border: 1px dotted #e4e4e4;
+}
+.subCategoryTableItem {
+	background: #ffffff;
+}
+.subCategoryTableItemOver {
+	background: #f4f4f4;
+}
+
+.popupLink { COLOR: red; outline: none }
+
+.popup {
+	POSITION: absolute;
+	VISIBILITY: hidden;
+	BACKGROUND-IMAGE: url(../../../images/transback_grey.png);
+	width: 150px;
+	height: 150px;
+	PADDING: 3px;
+	z-index: 10;
+	border: 1px solid #cccccc;
+	overflow: auto;
+	cursor: pointer;
+}
+* html .popup {
+background:#f4f4f4;
+filter: progid:DXImageTransform.Microsoft.Alpha(style=0,opacity=85); 
+}
+
+
+
+.spppopup {
+	POSITION: absolute;
+	VISIBILITY: hidden;
+	BACKGROUND-IMAGE: url(../../../images/transback_grey.png);
+	width: 150px;
+	height: 150px;
+	PADDING: 3px;
+	z-index: 10;
+	border: 1px solid #cccccc;
+	overflow: auto;
+	cursor: pointer;
+}
+* html .spppopup {
+background:#f4f4f4;
+filter: progid:DXImageTransform.Microsoft.Alpha(style=0,opacity=85); 
+}
+
+
+  .categoriesOutline {
+	background: #ffffff;
+	background-color: #ffffff;
+	border: 1px solid #d4d4d4;
+}
+.priceTableBox{
+	background: #f4f4f4;
+}
+
+.productListingHeading {  
+background: #e4e4e4;
+}
+.productListingBackground {  
+background: #eeeeee;
+}
+.productListingShadeOne {  
+background: #eeeeee;
+}
+.productListingShadeTwo {  
+background: #cccccc;
+}
+.productListingShadeThree {  
+background: #aaaaaa;
+}
+.productListingShadeFour {  
+background: #ffffff;
+}
+.productListingBorderBackground {  
+background: #ffffff;
+}
+
+
+.thumbnailBox {
+	background-color: #ffffff;
+	background-repeat: no-repeat;
+	background-position: left top;
+	border: 1px;
+	border-style: solid;
+	border-color:#a2c4ec;
+	padding: 2px;
+}
+.basketInstock{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size: 100%;
+	color:#999999;
+	font-style: normal;
+	text-decoration: none;
+}
+.optionsBasketText{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 80%;
+	color:#9e222e;
+	font-style: normal;
+	text-decoration: none;
+}
+
+
+
+
+#topnavSeperator {
+	margin: 0;
+	padding: 0;
+	text-align: right;
+	vertical-align: middle;
+	line-height: 25px;
+	height:25px;
+	color: #e4e4e4;
+}
+
+
+#topnavListHolder {
+	MARGIN: 0px;
+	padding: 0px;
+	width: 196px;
+	background-color: #ffffff;
+	border: 1px;
+	border-style: solid;
+	border-color:#ffffff;
+	height: 100%;
+filter: progid:DXImageTransform.Microsoft.Alpha(style=0,opacity=85); 
+}
+#topnavList UL {
+	BORDER-TOP-WIDTH: 0px;
+	 PADDING-RIGHT: 0px;
+	  PADDING-LEFT: 0px;
+	   BORDER-LEFT-WIDTH: 0px;
+	    BORDER-BOTTOM-WIDTH: 0px;
+		 PADDING-BOTTOM: 0px;
+		  MARGIN: 0px;
+		   PADDING-TOP: 0px;
+		    LIST-STYLE-TYPE: none;
+			 TEXT-ALIGN: center;
+			  BORDER-RIGHT-WIDTH: 0px;
+				width: 196px;
+}
+#topnavList UL LI {
+	PADDING-RIGHT: 1px;
+	DISPLAY: block;
+	PADDING-LEFT: 1px;
+	FLOAT: left;
+	PADDING-BOTTOM: 1px;
+	MARGIN: 0px;
+	VERTICAL-ALIGN: middle;
+	PADDING-TOP: 1px;
+	TEXT-ALIGN: center;
+	WIDTH: 96px;
+}
+#topnavList UL LI A, #topnavList UL LI A:active, #topnavList UL LI A:visited {
+	BORDER-TOP-WIDTH: 0px;
+	PADDING-RIGHT: 0px;
+	DISPLAY: block;
+	PADDING-LEFT: 0px;
+	BORDER-LEFT-WIDTH: 0px;
+	BORDER-BOTTOM-WIDTH: 0px;
+	PADDING-BOTTOM: 0px;
+	MARGIN: 0px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	font-weight: bold;
+	WIDTH: 96px;
+	COLOR: #e4e4e4;
+	PADDING-TOP: 0px;
+	height:25px;
+	TEXT-ALIGN: center;
+	BORDER-RIGHT-WIDTH: 0px;
+	TEXT-DECORATION: none;
+	background-color: #;
+	line-height: 25px;
+	filter: progid:DXImageTransform.Microsoft.Alpha(style=0,opacity=85); 
+}
+#topnavList UL LI A:hover {
+	 COLOR: #f4f4f4;
+	background-color: #;
+	filter: progid:DXImageTransform.Microsoft.Alpha(style=0,opacity=85); 
+}
+
+#headerdiv {
+	position:relative;
+	MARGIN: 0px;
+	padding: 0px;
+	height:100%;
+	width:auto;
+	}
+	
+#headerdivFloat {
+	MARGIN: 0px;
+	padding-top: 100px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 6px;
+	float: right;
+	position: absolute;
+	z-index:9999;
+	right: 2px;
+	height: 130px;
+}
+#headerdivOver {
+clear:both;
+width: 800px;	
+	margin: 0px;
+	padding-top: 100px;
+	padding-right: 5px;
+	_padding-right: 0px;
+	text-align: left;
+}
+
+
+.topheaderBar {
+background-color: #00A4D4;
+margin: 0px;
+width: 100%;
+padding: 0px;
+}
+
+
+.basketAboveButtonText, a.basketAboveButtonText:link, a.basketAboveButtonText:visited{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size: 200%;
+	color:#C40000;
+	font-style: normal;
+	text-decoration: none;
+}
+
+.checkoutPriceColumn {
+background-color:#111111;
+}
+
+.checkoutTotalPrice {
+background-color:#222222;
+font-size:140%;
+}
+.checkouthorizontalBar {
+	background-image: url(../../../images/page/horizontal_dots.gif);
+background-color:#111111;
+}
+
+.checkoutTotalDiscount {
+background-color:#111111;
+font-size:110%;
+color:#ff0000;
+
+}
+.voucherError{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size: 100%;
+	color:#ff0000;
+	font-style: normal;
+	text-decoration: none;
+}
+.voucherValid{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size: 100%;
+	color:#STYLE_BASKET_dsv_voucher_valid_TEXT;
+	font-style: normal;
+	text-decoration: none;
+}
+
+.smallText{
+font-size: 80%;
+}

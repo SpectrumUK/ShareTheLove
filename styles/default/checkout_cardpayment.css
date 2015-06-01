@@ -1,0 +1,367 @@
+
+.errorHolder{
+	margin: 25px 0 0 20px;
+}
+
+#dscheckoutBasketSteps{
+padding-top:15px;
+font-size:100%;
+	width:100%;
+	text-align:center;
+	margin:0px auto;
+}
+
+div.dscheckoutCardSections {
+	clear:both;
+	text-align:left;
+	margin: 15px 0px 0px 0px;
+	padding:15px 15px 15px 15px;
+	border-top: 1px #e5e5e5 solid;
+	min-height: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+
+}
+div.dscheckoutTitle{
+	text-align: left;
+}
+
+div.dscheckoutTitle h3{
+	color: #ffffff;
+	font-size: 21px;
+	text-align: left;
+	height: inherit;
+}
+
+div.dscheckoutTitle a{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #ffd200;
+	text-align: right;
+	text-decoration: none;
+}
+
+div.dscheckoutTitle a:hover{
+	text-decoration: underline;
+}
+
+
+div.dscheckoutSection{
+	padding-top:15px;
+	font-size:12px;
+	width:100%;
+	text-align:left;
+	margin:0px auto;
+}
+
+
+.dsbasketQuantitySide {
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #e5e5e5;
+	text-align:right;
+	padding-right: 10px;
+}
+
+
+.dsbasketQuantityTopSide {
+	border-top: 1px solid #e5e5e5;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #e5e5e5;
+	text-align:right;
+	padding: 5px 10px 0 0;
+}
+
+
+.dscheckoutTotalDiscount {
+color:#ff0000;
+
+}
+
+.dsLatencyBasketText{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#999999;
+}
+
+.dsDepositBasketText{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size: 12px;
+	color: #999999;
+}
+
+.dscheckoutTopBar{
+border-top: 1px solid #e5e5e5;
+padding-top: 5px;
+}
+
+
+.dscheckoutTotalDeposit {
+	font-size:14px;
+	color:#ffd200;
+	text-align:right;
+}
+.dscheckoutTotalGross {
+	font-size:14px;
+	color:#ffd200;
+	text-align:right;
+}
+
+div.dscheckoutAddress {
+	clear: both;
+	display: block;
+	float: left;
+	width/**/: 350px !important; /*for moz browser*/
+	width: 340px; /* for IE */
+	font-size: 12px;
+	padding-top: 3px;
+	color: #000000;	
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #e5e5e5;
+	margin-right: 20px;
+}
+
+* html div.dscheckoutAddress {
+padding-top: 2px !important;
+}
+
+div.dsAddressTitle {
+	font-weight: bold;
+	}
+
+
+.dsinputRequirement{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size: 12px;
+	color:#B41D22;
+	font-style: normal;
+	text-decoration: none;
+}
+
+
+div.dscheckoutInput input.forminput {
+	display: block;
+	float: left;
+	height: 20px;
+	padding: 2px 0px 0px 5px;
+	background-color: #000000;
+	border: 1px solid #666666;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #999999;
+	text-align:left;
+
+}
+
+div.dscheckoutInput select.forminput {
+	display: block;
+	float: left;
+	height: 20px;
+	padding: 2px 0px 0px 5px;
+	background-color: #000000;
+	border: 1px solid #666666;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #999999;
+	text-align:left;
+
+}
+
+div.dscheckoutInput textarea.forminput {
+	display: block;
+	float: left;
+	padding: 2px 0px 0px 5px;
+	background-color: #000000;
+	border: 1px solid #666666;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #999999;
+	text-align:left;
+
+}
+
+div.dscheckoutInput {
+	clear: both;
+	padding-top: 5px;
+	
+}
+* html div.dscheckoutInput {
+padding-top: 2px;
+}
+div.dscheckoutInput label, div.emptyLabel {
+	display: block;
+	float: left;
+	width/**/: 180px !important; /*for moz browser*/
+	width: 170px; /* for IE */
+	font-size: 12px;
+	padding: 3px 0 0 20px;
+	color: #ffffff;
+	
+}
+
+
+#dscheckoutCardInfo{
+	text-align:left;
+	margin:0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#000000;
+	font-style: normal;
+	text-decoration: none;
+	padding-bottom:15px;
+}
+
+#dsbuttonConfirm{
+	width:100%;
+	text-align:right;
+	margin:0px auto;
+	padding-bottom:15px;
+}
+
+
+.dscheckoutDates{
+	display: block;
+	float: left;
+	line-height: 24px;
+	padding: 0px 5px;
+}
+
+
+span.dscheckoutNotes {
+	font-size: 80%;
+	padding-left: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#checkoutCardPage {  
+	font-family:Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	font-size: 12px;
+	width:100%;
+	text-decoration: none;
+}
+
+#checkoutCardSteps{
+padding-top:15px;
+font-size:12px;
+	width:543px;
+	text-align:center;
+	margin:0px auto;
+}
+
+
+
+div.checkoutbasketSeperator {  
+	text-align:center;
+	width:400px;
+	margin:0px auto;
+	height:30px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-bottom-color: #666666;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+div.checkoutErrors{
+padding-top:5px;
+font-size:12px;
+	width:543px;
+	text-align:left;
+	margin:0px auto;
+	color:#ff0000;
+padding-bottom:5px;
+
+}
+
+
+div.checkoutInput {
+	clear: both;
+	padding-top: 5px;
+	
+}
+* html div.checkoutInput {
+padding-top: 2px;
+}
+div.checkoutInput label, div.emptyLabel {
+	display: block;
+	float: left;
+	width/**/: 180px !important; /*for moz browser*/
+	width: 170px; /* for IE */
+	font-size: 12px;
+	padding-top: 3px;
+	color: #999999;
+	
+}
+div.checkoutTick label, div.emptyLabel {
+	display: block;
+	float: left;
+	width/**/: 180px !important; /*for moz browser*/
+	width: 170px; /* for IE */
+	font-size: 100%;
+	padding-top: 3px;
+	color: #999999;
+}
+
+div.checkoutInput input.forminput {
+	height: 20px;
+	background-color: #000000;
+	border: 1px solid #666666;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #999999;
+	text-align:left;
+
+}
+div.checkoutInput select.forminput {
+	height: 20px;
+	background-color: #0d0d0d;
+	border: 0px solid #666666;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #999999;
+	text-align:left;
+
+}
+

@@ -1,0 +1,75 @@
+body {background: url(../../../images/custom/textured_home_bk.jpg) bottom center no-repeat #000000;}
+
+/***** Main Content ******/
+#dsContent{position:relative;height: inherit; text-align:left; width: 960px; \/*IE 5.x hack*/; margin: 0px auto; padding: 0px; z-index: 90; background:url(../../../images/custom/content_home_bk.png) top center no-repeat;}
+
+#dsSMLban{background: url(../../../images/custom/content_home_bk.png) top center no-repeat; width: 100%; margin: 0px; padding: 2px 0px 0px; display: block;}
+#dsSMLban ul{width: 100%; list-style: none; margin: 0px; padding: 0px;}
+#dsSMLban ul li{float: left; text-align: center; min-width: 300px; height: 60px; margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; color: #ffffff;}
+.dsSMLLeft, .dsSMLRight{width: 280px;}
+.dsSMLMid{width: 310px; background: url(../../../images/custom/small_banner_divider.gif) top center no-repeat;}
+.dsSMLLeft, .dsSMLMid, .dsSMLRight{padding: 12px 15px 0px; text-align: center; }
+.dsSMLLeft a, .dsSMLMid a, .dsSMLRight a{font-size: 16px; font-weight: bold; text-decoration: none; color: #ffffff; display: block; line-height: 18px;}
+span.dsSMLItem {font-size: 10px!important; font-weight: normal!important; text-decoration: none; color: #ffffff; line-height: 11px!important;}
+
+/***** dsSMLbanEmpty *****/
+#dsSMLbanEmpty{background: url(../../../images/custom/content_home_bk.png) top center no-repeat; width: 100%; margin: 0px; padding: 2px 0px 0px; display: block; height: 30px;}
+
+#dsList, #dsTempList{width: 100%; height: inherit; }
+#dsList ul, #dsTempList ul{list-style: none; margin: 0px; padding: 0px;}
+#dsList li, #dsTempList li{position:relative; z-index:90; width: 220px; height: 321px; float: left; display: block; padding: 0px; margin: 0px 10px 20px; font-family: Arial, Helvetica, sans-serif;}
+
+/***** Home Categories ******/
+.dsCATHome{background: url(../../../images/custom/home_cat_bk.png) top left no-repeat;}
+
+.dsCatImage {position:absolute; z-index:80; bottom: 6px; left: 0px;}
+
+.dsCatTitle{position:absolute;	z-index:90;	top:11px; left:10px; width: 180px; font-size: 16px; color: #000000; line-height: 18px; font-weight: bold;}
+
+.dsCatTitle a:link, .dsCatTitle a:active, .dsCatTitle a:visited, .dsCatTitle a:hover {
+	color: #000000; text-decoration:none !important;}
+
+.dsCatNo{position:absolute; z-index:90; top: 53px; left: 10px; width: 120px; font-size: 12px; color: #000000; text-transform: uppercase;}
+
+/***** Home Products ******/
+.dsPROHome{background: url(../../../images/custom/productHome_bk.png) top left no-repeat;}
+
+.dslabel{position: absolute; right: -1px; top: -4px; z-index:100;}
+
+.dsProTitle, .dsProModel, .dsPrice{font-family: Arial, Helvetica, sans-serif; color: #000000; position: absolute; left: 10px; padding: 0px; margin: 0px; font-size: 12px;}
+
+.dsProTitle a:link, .dsProTitle a:active, .dsProTitle a:visited, .dsProTitle a:hover, .dsProModel a:link, .dsProModel a:active, .dsProModel a:visited, .dsProModel a:hover{color: #000000; padding:0px; text-decoration:none !important;}
+
+.dsProIMG{position: absolute; z-index:80; width: 220px; height: 230px; top: 0px; left: 13px;}
+.dsProTitle{text-align: left; top: 253px; width: 180px; }
+.dsProModel{font-weight: bold; text-align: left; top: 237px; width: 100px; }
+.dsPrice, .dsWas, .dsSpecial{top: 287px; z-index:90; font-size: 12px; }
+
+.dsWas{position: absolute; left: 10px; color: #555555; text-decoration: line-through;}
+.dsSpecial{position:absolute; left: 70px; color: #da2128; font-weight: bold;}
+
+/***** Home Article ******/
+.dsARTHome{background: url(../../../images/custom/artHome_bk.png) left top no-repeat;}
+
+.dsARTIMG{position: absolute; top: 0px; left: 0px;}
+
+.dsARTTXT{width: 200px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #000000; text-decoration: none; line-height: 18px; position: absolute; top: 200px; left: 10px;}
+
+/*****.dsARTTXT h3{
+	font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #404040; background: url(../images/custom/headTag_h3.gif) left top no-repeat; line-height: 12px; padding-left: 12px; padding-bottom: 5px;
+}******/
+
+.dsARTTitle{font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #000000; line-height: 20px; text-decoration:none !important; position: absolute; top: 145px; left: 10px; width: 200px; font-weight: bold;}
+.dsARTTitle a:link, .dsARTTitle a:active, .dsARTTitle a:visited,.dsARTTitle a:hover {color: #000000; text-decoration:none !important;}
+
+.dsCOMPHome{background: url(../../../images/custom/artHome_bk.png) left top no-repeat;}
+
+.dsCOMPIMG{/*	padding: 6px 12px 14px 12px;  */ padding: 0px 0px 14px 0px;}
+
+.dsCOMPTXT{padding: 0px 14px 0 10px; width: 196px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #404040; text-decoration: none; line-height: 18px;}
+
+.dsCOMPTXT h3{font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #404040; background: url(../../../images/custom/headTag_h3.gif) left top no-repeat; line-height: 12px; padding-left: 12px; padding-bottom: 5px;}
+
+.dsCOMPTXTlink{font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #404040; background: url(../../../images/custom/headTag_h3.gif) left top no-repeat; line-height: 12px; padding-left: 12px; padding-bottom: 5px; text-decoration:none !important; font-weight:bold;}
+	
+.dsCOMPTXTlink a:link, .dsCOMPTXTlink a:active, .dsCOMPTXTlink a:visited,.dsCOMPTXTlink a:hover {font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #404040; background-image:none;	padding:0px; text-decoration:none !important; font-weight:bold;}

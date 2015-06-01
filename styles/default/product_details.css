@@ -1,0 +1,658 @@
+body {background: url(../../../images/custom/textured_details_bk.jpg) top center no-repeat #000000;}
+
+#dsPROstrip{background-position: top center; background-repeat: no-repeat; width: 100%; padding: 0px; margin: 0px;}
+#dsContent{position:relative; height: inherit; text-align:left; width: 960px; \/*IE 5.x hack*/; margin: 0px auto; padding: 30px 0px 0px; z-index: 90;}
+
+#dsPROTitle{float: left; width: 420px; margin: 0px 0px 0px 10px; padding: 0px;}
+#dsContent h1{font-size: 26px; font-weight: bold; line-height: 32px; color: #ffffff; padding: 0px; margin: 10px 0px 0px;}
+#dsContent h2{font-size: 21px; font-weight: bold; line-height: 26px; color: #ffffff; padding: 0px; margin: 0px;}
+
+#dsPROEcom{float: right; min-height: 125px; width: 510px; margin: 0px; padding: 0px; position: relative; font-family: Arial, Helvetica, sans-serif;}
+.dsPROStock, .dsPROexcl{font-size: 11px; text-decoration: none; line-height: 14px; position: absolute; top: 3px; left: 0px; text-align: right; padding: 0px; width: 220px; font-weight: bold;}
+.dsPROINStock{color: #98cb33;}
+.dsPRONoStock{color: #c10202;}
+.dsPROexcl{#ffffff;}
+.dsPROPrice{position: relative; top: 26px; left: 0px; padding: 0px; margin: 0px; width: 220px; text-align: right; padding: 0px;}
+.dsPRONow, .dsPRORRP{line-height: 32px;}
+.dsPROWas{font-size: 24px; color: #e5e5e5; text-decoration: line-through; line-height: 28px;}
+.dsPRONow{font-size: 28px; color: #da2128; text-decoration: none; }
+.dsPRORRP{font-size: 28px; color: #ffffff; text-decoration: none; }
+.dsPROBtn{position: absolute; top: 0px; right: 0px;}
+
+.dsBVO{position: absolute; top: 65px; right: 0px;}
+
+#dsPROLeft{float: left; width: 480px; padding: 20px 0px 0px 0px;}
+.dsPROImg{width: 480px; background: url(../../../images/custom/crest_main_bk.png) top center no-repeat; height: 548px;}
+.dsPROMain{position:relative;
+padding: 0px 0px 0px 71px; width: 409px; height: 410px;}
+.dsPROInsets{width: 480px; padding: 25px 0px 0px; height: 73px;}
+.dsPROInsets a{border: solid 1px #e2e3e3; background: #e2e3e3; margin: 0px 10px; width:74px; height:73px; display: block; float: left;}
+
+/*** Left Video Removed
+.dsPROVideo{width: 460px; height:270px; margin: 0px 0px 0px 10px; padding: 0px; background: url(../../../images/custom/details_video_bk.png) bottom center no-repeat;}
+.dsPROVTitle, .dsPROVTxt{width: 460px; margin: 0px 0px 0px 10px; padding: 0px; font-family: Arial, Helvetica, sans-serif; color: #ffffff;}
+.dsPROVTitle{font-size: 14px; line-height: 18px; font-weight: bold;}
+.dsPROVTxt p{font-size: 12px; line-height: 16px; padding: 10px 0px 0px;}
+***/
+
+/*** Overview Video (NEW) ***/
+.dsPROVideo{width: 440px; height:248px; margin: 0px 0px 0px 15px; padding: 0px;}
+.dsPROVTitle, .dsPROVTxt{width: 440px; margin: 0px 0px 0px 15px; padding: 0px; font-family: Arial, Helvetica, sans-serif; color: #000000;}
+.dsPROVTitle{font-size: 14px; line-height: 18px; font-weight: bold;}
+.dsPROVTxt p{font-size: 12px; line-height: 16px; padding: 10px 0px 0px;}
+
+#BVRRSummaryContainer {float: right; display: block; height: 70px; padding: 0px!important; margin: 0px;}
+
+#dsPRORight{float: right; width: 469px; padding: 30px 0px 0px;}
+#dsTABRight ul{list-style: none; width: 100%; margin: 0px; padding: 0px;}
+#dsTABRight li {float: left; margin: 0px 2px 0px 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; font-size: 14px;}
+#RATB_Holder {clear:both; position:relative; background: url(../../../images/custom/protab_holder_bk.gif) top left no-repeat #ffffff;}
+#RATB_ftr{position: absolute; bottom: -18px; right: 0px; width: 469px; height: 18px; display: block;}
+#tab-features{padding: 20px 0px 20px 0px; height: inherit; margin: 0px; display: none;}
+#tab-overview{padding: 20px 0px 20px 0px; height: inherit; margin: 0px; display: block;}
+.addthis {padding: 0px 15px; margin: 0px; display: block; width: 440px; height: 25px;}
+.dsPROtxt{padding: 0px 15px; margin: 0px; width: 439px; display: block;}
+.dsPROtxt p, .dsPROtxt a{font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 18px; color: #000000; text-decoration: none;}
+dsPROtxt a:hover{text-decoration: underline; color: #000000; padding: 0px 0px 15px;}
+.dsPROdisclaimer{padding: 0px 15px 15px; color: #000000; font-size: 11px; font-family: Arial, Helvetica, sans-serif; margin: 0px; text-decoration: none; display: block;}
+.dsPROArt{width: 464px; min-height: 15px; background: url(../../../images/custom/protab_holder_divide.png) top center no-repeat; padding: 20px 0px 0px 5px; margin: 0px; }
+.dsPROArt ul{list-style: none; padding:0px; margin:0px; width: 100%;}
+.dsPROArt li{width: 220px; margin: 0px 5px 15px; padding: 0px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; text-decoration: none; float: left; display: block;}
+.dsPROArtTitle{background: url(../../../images/custom/artimg_divider.png) top center no-repeat; padding: 15px 0px 5px 0px; font-size: 14px; line-height: 18px; font-family: Arial, Helvetica, sans-serif; text-decoration: none; font-weight: bold; margin: 5px 0px 0px;}
+.dsPROArtImg {clear:both;}
+.dsPROdoc, .featureIcons{clear:both; width: 429px; min-height: 15px; background: url(../../../images/custom/protab_holder_divide.png) top center no-repeat; padding: 20px 20px 0px; margin: 15px 0px 0px;}
+.dsPROdoc a{background: url(../../../images/custom/pdf_icon.gif) left top no-repeat; display: block; margin: 0px; padding: 6px 0px 0px 43px; line-height: 18px; font-size: 14px; font-family: Arial, Helvetica, sans-serif; text-decoration: none; color: #000000; min-height: 24px;}
+.dsPROdoc a:hover{text-decoration: underline;}
+.featureList ul{padding: 0px 15px 0px 30px; width: 424px; margin: 0px;}
+.featureList li {margin: 0px 0px 6px; line-height: 16px; padding: 0px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; list-style: square;}
+
+.featureIcons ul{width: 100%; height: inherit; list-style: none; padding: 0px; margin: 0px;}
+
+.featureIcons li{float: left; margin: 0px 15px 20px 0px; height: 57px; width: 57px; display: block;}
+
+.RTAB_Features a:link, .RTAB_Features a:visited, .RTAB_Features a:active, .RTAB_Overview a:link, .RTAB_Overview a:visited, .RTAB_Overview a:active {background-image: url(../../../images/custom/protab_inactive.gif); background-position: top right; background-repeat: no-repeat; height: 28px; padding: 15px 50px 0px 14px; margin: 0px; text-decoration: none; display: block; color: #000000;
+}
+
+.RTAB_Features a:hover, .RTAB_Overview a:hover {
+background-image: url(../../../images/custom/protab_inactive.gif); background-position: top right; background-repeat: no-repeat; height: 28px; padding: 15px 50px 0px 14px; margin: 0px; text-decoration: underline; display: block; color: #000000;
+}
+
+.RTAB_FeaturesActive a:link, .RTAB_FeaturesActive a:visited, .RTAB_FeaturesActive a:active, .RTAB_FeaturesActive a:hover, .RTAB_OverviewActive a:link, .RTAB_OverviewActive a:visited, .RTAB_OverviewActive a:active, .RTAB_OverviewActive a:hover  {
+	background-image: url(../../../images/custom/protab_active.gif); background-position: top right; background-repeat: no-repeat; height: 28px; padding: 15px 50px 0px 14px; margin: 0px; text-decoration: none; display: block; color: #000000;
+}
+
+/* END RIGHT ITEMS */
+
+/* BOTTOM ITEMS */
+#dsTABMore {
+	width: 960px; min-height: 396px; padding: 0px; margin: 20px 0px 0px; position: relative; background: url(/images/custom/rel_details_TABbk.png) top center no-repeat;}
+#dsTABMore ul{width: 100%; list-style: none; height: 44px; padding: 0px; margin: 26px 0px 0px;}
+#dsTABMore li {float: left; margin: 25px 1px 0px; font-family: Arial, Helvetica, sans-serif; font-size: 14px;}
+.TABM_Related a:link, .TABM_Related a:visited, .TABM_Access a:link, .TABM_Access a:visited, .TABM_Ratings a:link, .TABM_Ratings a:visited,  .TABM_Parts a:link, .TABM_Parts a:visited{
+	background-image: url(../../../images/custom/relTABbk.jpg); background-position: top right; background-repeat: no-repeat; height: 31px; padding: 13px 45px 0px 15px; text-decoration: none; display: block; color: #000000;
+}
+.TABM_Related a:active, .TABM_Related a:hover, .TABM_RelatedActive a:hover, .TABM_RelatedActive a:active, .TABM_Access a:hover, .TABM_Access a:active, .TABM_AccessActive a:active, .TABM_AccessActive a:hover, .TABM_AccessActive a:link, .TABM_AccessActive a:visited, .TABM_Parts a:hover, .TABM_Parts a:active, .TABM_PartsActive a:active, .TABM_PartsActive a:hover, .TABM_PartsActive a:link, .TABM_PartsActive a:visited, .TABM_RelatedActive a:link, .TABM_RelatedActive a:visited, .TABM_Ratings a:hover, .TABM_Ratings a:active, .TABM_RatingsActive a:active, .TABM_RatingsActive a:hover, .TABM_RatingsActive a:link, .TABM_RatingsActive a:visited{
+	background-image: url(../../../images/custom/relTABbk.jpg); background-position: bottom right; background-repeat: no-repeat; height: 31px; padding: 13px 45px 0px 15px; text-decoration: none; display: block; color: #ffffff;
+}
+.dsRPList{background: url(../../../images/custom/rellist_img_bk.png) top center no-repeat; width: 172px; height: 305px; display: block; padding: 0px; margin: 0px; position: relative;}
+.dsPROTitle a, .dsPROTitle a{font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 16px; color: #ffffff; padding: 0px 15px; text-align: center; text-decoration: none; position: absolute; top: 202px; left: 0px; width: 142px; display: block;}
+.dsPROModel a, .dsPROModel a{font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 14px; color: #ffffff; padding: 0px 15px; text-align: center; text-decoration: none; position: absolute; top: 253px; left: 0px; width: 142px; display: block;}
+
+#dsAPContent, #dsRPTContent, #BVRRContainer{display: none;}
+#dsRPContent, #dsAPContent, #dsRPTContent, #BVRRContainer{list-style: none; padding: 22px 0px 0px; background: url(../../../images/custom/rel_content_bk.png) bottom center no-repeat; height: inherit; min-height: 305px;}
+#dsRPContent ul, #dsAPContent ul, #dsRPTContent ul{list-style: none; margin: 0px; padding: 0px;}
+#dsRPContent li, #dsAPContent li, #dsRPTContent li{float: left; margin: 0px 10px 20px; height: 305px; width: 172px; padding: 0px;}
+
+.dsPROHvrItem {
+	background-image: url(../../../images/custom/insetHover_bk.png); background-position: top left; background-repeat: no-repeat;
+	padding: 5px 0px 0px 5px;
+	width:374px;
+	height:384px;
+	}
+
+#dsPROHvrInset {
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+
+#dsPROHvr1 {
+	position:absolute;
+	top:40px;
+	left:-143px;
+	display:none;
+}
+
+#dsPROHvr2 {
+	position:absolute;
+	top:40px;
+	left:-49px;
+	display:none;
+}
+
+#dsPROHvr3 {
+	position:absolute;
+	top:40px;
+	left:48px;
+	display:none;
+}
+
+#dsPROHvr4 {
+	position:absolute;
+	top:40px;
+	left:144px;
+	display:none;
+	z-index: 90;
+}
+
+.dsADSTitle{font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: bold; line-height: 20px; color: #ffffff; margin: 10px 0px 0px; padding: 0px;}
+.dsADSItem{font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 16px; color: #ffffff; margin: 15px 0px 0px; padding: 0px;}
+
+.dsPRODel{font-size: 11px; text-decoration: none; line-height: 14px; position: absolute; top: 0px; left: 0px; text-align: right; padding: 0px; width: 220px; color: #cccccc; text-align: right;}
+
+/*#dsppTopHolder{
+clear:both;
+position:relative;
+width:100%;
+}
+
+#dsppTopRightHolder{
+margin-left:290px;
+text-align:center;
+}
+
+#dsppTopRight{
+margin:0px auto;
+text-align:center;
+}
+
+#dsppMainImage{
+	border: 1px solid #e1e1e1;
+	padding: 2px;
+	margin: 0 3px 5px 0;
+	background-color: #FFFFFF;
+	float: left;
+	width: 394px;
+	height: 306px;
+	text-align: center;
+}
+
+#dsppBrandImage{
+clear:both;
+text-align:left;
+}
+
+#proThumbHolder{
+	float:left;
+	height: 250px;
+	width: 80px;
+	text-align: center;
+}
+
+#dsppThumb img {
+	border: 1px solid #e1e1e1;
+	width: 76px;
+	height: 58px;
+	margin: 0px 0px 3px 0px;
+	display: block;
+}
+
+#dsppPriceBox{
+	padding: 12px 0px 5px 0px;
+	text-align:left;
+}
+
+
+div.dsppWasPrice{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666666;
+	font-size: 14px !important; 
+	text-decoration: line-through;
+	padding-left: 25px;
+}
+
+div.dsppNowPrice{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	font-size: 20px !important; 
+	padding-left: 25px;
+}
+
+div.dsppRrpPrice{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666666;
+	font-size: 14px !important; 
+	padding-left: 25px;
+}
+div.dsppOurPrice{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	font-size: 20px !important; 
+	padding-left: 25px;
+}
+
+div.dsppBuyButtons{
+margin: 13px 0px 0px 18px;
+}
+
+div.dsppBuyButtons p{
+	width: 200px;
+	padding: 0px 0px 10px 10px;
+}
+
+#dsppMainDetails{
+clear:both;
+}
+
+div.dsppProdTitle{
+	clear:both;
+	margin: 20px 0px 0px 0px;
+	padding: 10px 0px 10px 2px;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#666666;
+	font-size: 140% !important;
+	background-color:#D8D8D8;
+}
+
+#dsppDesc{
+margin:10px 0px 0px 0px;
+text-align:left;
+}
+
+
+#dsfeatureTable{
+	background-color: #D8D8D8;
+	color: #STYLE_COMPAREBOX_TEXT;
+	padding: 1px;
+}
+
+#dsfeatureButton{
+float:right;
+}
+
+
+.dscompareBox{
+	background: #D8D8D8;
+	color: #STYLE_COMPAREBOX_TEXT;
+}
+.dscompareEven{
+	background: #e4e4e4;
+	color: #STYLE_COMPAREBOX_TEXT;
+}
+.dscompareOdd{
+	background: #f4f4f4;
+	color: #STYLE_COMPAREBOX_TEXT;
+}
+
+
+.dsFeatureShow {display:table;}
+
+.dsFeatureHide {display:none;}
+
+#dsfeatureHeader{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size: 120%;
+	color:#333333;
+	font-style: normal;
+	text-decoration: none;
+}
+
+
+
+#dsppRelated {
+	clear:both;
+	padding:0px;
+	margin:30px 0px 0px 0px;
+	text-align:left;
+}
+
+#dsppRelated ul {
+	clear:both;
+	padding:0px;
+	margin:0px;
+	height: inherit;
+	min-height: 200px;
+}
+
+#dsppRelated ul li {
+	list-style: none;
+	width: 138px;
+	float: left;
+	margin: 0px 3px 25px 3px;
+	position: relative;
+	text-align: center;
+	height: 250px;
+}
+
+/**Start SR Additional**/
+
+/*.dsRPname{
+	position: absolute; top: 165px; left: 0px; text-align: center; width: 100%;
+}
+
+.dsRPmodel{
+	position: absolute; top: 195px; left: 0px; text-align: center; width: 100%;
+}
+
+.dsRPbtn{
+	position: absolute; top: 210px; left: 0px; text-align: center; width: 100%;
+}
+
+/**End SR Additional**/
+
+
+/*div.dsProdNotFound {
+	width:100%;
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size: 12px;
+	color:#333333;
+	font-style: normal;
+	text-decoration: none;
+	margin: 30px 0px 300px 0px;
+}
+
+#dsppAwards{
+clear: both;
+width: 402px;
+height: 86px;
+}
+
+#dsppAwards img{
+	margin: 3px 0px;
+	float: left;
+}
+#dsppNames{
+text-align:left;
+}
+
+#dsppStock{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size: STYLE_PP_INSTOCK_SIZE;
+	color:#STYLE_PP_INSTOCK_FONT;
+}
+
+#dsppDelivery{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size: STYLE_PP_DELIVERY_SIZE;
+	color:#STYLE_PP_DELIVERY_COLOUR;
+}
+
+#proDec{
+	width: 100%;
+	height: inherit;
+	padding: 0 0 35px 0;
+}
+
+#proContent{
+	width: 100%;
+	height: inherit;
+}
+
+
+#proLeft{
+	width: 485px;
+	height: inherit;
+	float: left;
+}
+
+#proRight{
+	height: inherit;
+	width: 269px;
+	float: left;
+}
+
+#proSpec{
+	padding: 0px 0px 0px 25px;
+	
+}
+
+#proSpec ul{
+	margin: 14px 0 10px 0px;
+	padding: 0px 0px 0px 20px; 
+	list-style: disc outside;
+	width: 224px;
+
+}
+
+#proSpec li{
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+
+div.dslpInstock{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #98cb33;
+	font-size: 11px !important; 
+	font-weight: bold;
+	text-align: left;
+	padding: 5px 0px 5px 25px;
+}
+
+div.dslpNoStock{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #d70000;
+	font-size: 11px !important; 
+	font-weight: bold;
+	text-align: left;
+	padding: 5px 0px 5px 25px;
+}
+.bptxt{
+	color: #000000;
+	margin-right: 8px;
+}
+
+/**Product Tabs**/
+
+/*.tab {
+	width: 141px;
+	height: 32px;
+	text-align: center;
+	float: left;
+	line-height: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: #fff;
+	font-size:11px;
+	font-weight: bold;
+	background: url(../../../images/custom/grey.gif) no-repeat 0px 0px;
+	color: #ffffff;	
+	position:relative;
+	top: 1px;
+	border-bottom: #e5e5e5 1px solid;
+}
+
+.tab a:link {
+	font-size:11px;
+	font-weight: bold;
+	display:block;
+	height: 32px;
+	line-height:30px;
+	width: 141px;
+	text-align:center;
+	text-decoration: none;
+	background: url(../../../images/custom/grey.gif) no-repeat 0px 0px;
+	color: #ffffff;	
+	position:relative;
+	top: 1px;
+	border-bottom: #e5e5e5 1px solid;
+
+}
+
+.tab a:visited {
+	width: 141px;
+	height: 32px;
+	display: block;
+	color: #ffffff;
+	font-weight: bold;
+	float: left;
+	text-decoration: none;
+}
+
+.tab a:hover {
+	background: url(../../../images/custom/grey.gif) no-repeat 0px -32px;
+	display: block;
+	color: #ffffff;	
+	text-decoration: none;
+}
+
+.tabon {
+	background: url(../../../images/custom/grey.gif) no-repeat 0px -64px;
+	width: 141px;
+	height:32px;
+	text-align: center;
+	line-height: 30px;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	position:relative;
+	top: 1px;
+	color: #777777;
+	font-weight: bold;
+	border-bottom: #ffffff 1px solid;
+}
+
+.tabon a:link {
+	color: #777777;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.tabon a:visited {
+	color: #777777;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#proOptions{
+	padding: 20px 0px 15px 0px;
+}
+
+#prodTabs{
+	margin-top: 20px;
+	width: 100%;
+	height: 32px;
+	border-bottom: #e5e5e5 1px solid;
+}
+
+#prodTabs a {
+	text-decoration: none;
+}
+
+#prodpage_reviews {
+	padding: 5px 15px 20px 15px;
+}
+
+#prodpage_accessories {
+	padding: 5px 15px 5px 15px;
+
+}
+
+#prodpage_related {
+	padding: 5px 15px 20px 15px;
+}
+
+#prodpage_downloads {
+	padding: 5px 15px 20px 15px;
+}
+
+#prodpage_w2b {
+	padding: 5px 15px 20px 15px;
+
+}
+
+.prodReview_total {
+	clear:both;
+	padding:0px 3px 8px 3px;
+	margin: 20px 0px 0px 0px;
+	text-align:left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #666666;
+	border-bottom: #e5e5e5 1px solid;
+}
+
+div.dsFbRow{
+clear:both;
+width:100%;
+padding-bottom:10px;
+margin-top:10px;
+border-bottom: 1px dashed #e5e5e5;
+min-height: 20px;
+}
+
+div.dsFbRight{
+float:right;
+width:200px;
+padding-top:5px;
+text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #000000;
+}
+
+div.dsFbLeft{
+padding-top:5px;
+margin-right:200px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #000000;
+}
+div.dsFbBottom{
+clear:both;
+margin-top:5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color: #666666;
+}
+
+.downloads{
+	margin: 20px 0px 0px 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.downloads img{
+	margin: 3px 8px 0px 0px;
+}
+
+#delMsg h2{
+	font-size: 18px !important; 
+	padding: 3px 0px 0px 23px;
+}
+
+.dsPROdownload {
+clear:both;
+}
+
+.dsPROdownload a{
+	 background: url(../../../images/custom/productDownload_bk.jpg) left top no-repeat; height: 33px; display: block; margin: 25px 0px 0px 20px; padding: 17px 10px 0px 50px; line-height: 14px; font-size: 14px; font-family: Arial, Helvetica, sans-serif; text-decoration: none; color: #000000; width: 209px;
+}
+
+.dsPROdownload a:hover{
+	text-decoration: underline;
+} 
+
+.dsPRODisclaimer{
+	padding: 0px; height: inherit; color: #000000; font-size: 11px; font-family: Arial, Helvetica, sans-serif; margin: 0px 0px 10px 0px;}
+
+.dsPRODisclaimer p {
+	margin-bottom: 25px; font-size: 11px!important; font-family: Arial, Helvetica, sans-serif; text-decoration: none;
+}
+
+.disclaimer{
+	margin-bottom: 25px; font-size: 11px; font-family: Arial, Helvetica, sans-serif; text-decoration: none;
+}
+
+.dsPROVideo{
+	font-family: Arial, Helvetica, sans-serif; text-decoration: none; font-size: 12px; margin: 25px 0px 25px; padding: 0px 20px 0px 0px;
+}
+
+*/
+

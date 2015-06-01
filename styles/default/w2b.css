@@ -1,0 +1,16 @@
+body {background: url(../../../images/custom/textured_meta_bk.jpg) top center no-repeat #000000;}
+#contentHolder {background: url(../../../images/custom/strips/crest.jpg) top center no-repeat; padding: 25px 0px 0px;}
+#dsContent{height: inherit; text-align:left; width: 960px; \/*IE 5.x hack*/; margin: 0px auto; padding: 25px 0px 0px;}
+.breadCrumb {margin: 0px 0px 0px 10px!important; }
+.addthis {float: right; text-align: right;}
+.w2b{padding: 0px 10px 0px 10px!important; margin: 0px;}
+.w2b h1{font-size: 26px; font-weight: bold; line-height: 32px; color: #ffffff; padding: 0px; margin: 10px 0px 0px;}
+.w2b h2{font-size: 16px; font-weight: bold; line-height: 20px; color: #ffffff; padding: 0px; margin: 35px 0px 0px;}
+.w2b p, .w2b a, .w2b a:hover{font-size: 12px; line-height: 16px; color: #ffffff; padding: 15px 0px 0px; margin: 0px;}
+.w2b a, w2b a:hover{text-decoration: underline;}
+
+.dsWTBList{width: 910px; margin: 30px 0px 20px; padding: 10px 15px; position: relative; background-color:#ffffff;}
+.dsWTBList ul{width: 100%; height: inherit; list-style: none; padding: 0px; margin: 0px;}
+.dsWTBList ul li{float: left; margin: 10px 10px 5px; padding: 0px; width: 110px; height: inherit; min-height: 80px; display: block;}
+.w2btxt {font-family: Arial, Helvetica, sans-serif; padding: 0px 0px 0px 15px; background: url(../../../images/custom/w2b_arrow.gif) top left no-repeat; color: #000000; text-decoration: none; display: block;}
+.w2bshadow{position: absolute; bottom: -15px; left: 0px; display: block; width: 940px; height: 19px;}

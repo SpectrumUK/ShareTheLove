@@ -1,0 +1,218 @@
+body {background: url(../../../images/custom/textured_meta_bk.jpg) top center no-repeat #000000;}
+#contentHolder {background: url(../../../images/custom/strips/crest.jpg) top center no-repeat; padding: 25px 0px 0px !important;}
+#dsContent{height: inherit; text-align:left; width: 960px; \/*IE 5.x hack*/; margin: 0px auto; padding: 0px;}
+.dsMETAleft{float: left; width: 610px; padding: 25px 0px 0px 10px; margin: 0px;}
+.dsMETAleft h1{font-size: 26px; font-weight: bold; line-height: 32px; color: #ffffff; padding: 0px; margin: 30px 0px 15px;}
+.dsMETAleft h2{font-size: 16px; font-weight: bold; line-height: 20px; color: #ffffff; padding: 0px; margin: 35px 0px 0px;}
+.dsMETAleft h3{font-size: 16px; font-weight: bold; line-height: 20px; color: #ffffff; padding: 15px 20px; margin: 0px;}
+.dsMETAleft h4{font-size: 14px; font-weight: bold; line-height: 18px; color: #ffffff; padding: 20px 0px 0px; margin: 0px;}
+.dsMETAleft h5{font-size: 12px; line-height: 16px; color: #ffffff; padding: 10px 0px 0px; margin: 0px;}
+.dsMETAleft p, .dsMETAleft a, .dsMETAleft a:hover{font-size: 12px; line-height: 18px; color: #ffffff; padding: 15px 0px 0px; margin: 0px;}
+.dsMETAleft a, dsMETAleft a:hover{text-decoration: underline;}
+.dsMETAleft ol, .dsMETAleft ul{font-family: Arial, Helvetica, sans-serif; color: #ffffff; font-size: 12px; line-height: 18px; padding: 0px 0px 0px 40px; margin: 0px;}
+.dsMETAleft li{margin: 15px 0px; padding: 0px; line-height: 18px;}
+
+.dsCIMG{background-color: #ffffff; padding: 8px; margin: 35px 20px 35px 0px; width: 505px; position: relative; height: 284px;}
+.dsIMGLeftCorner, .dsIMGRightCorner{width: 100px; height: 87px; display: block; z-index: 90;}
+.dsIMGLeftCorner{position: absolute; top: -20px; left: -20px;}
+.dsIMGRightCorner{position: absolute; bottom: -20px; right: -20px;}
+
+.dsABOUTtxt{width: 520px; /*height: inherit;*/}
+.dsWRImg{float: left; margin: 0px 20px 0px 0px;}
+.dsSection{width: 610px; background: url(../../../images/custom/acSection_bk.png) top center no-repeat; font-family: Arial, Helvetica, sans-serif; padding: 0px 0px 0px; margin: 30px 0px 0px; position: relative;}
+.clear{font-size: 0px;}
+.dsASVideo {background-color: #ffffff; padding: 8px; margin: 25px auto; width: 504px; position: relative; height: 284px; display: block; z-index: 80;}
+
+/*
+	Grids
+	--------------------------------------------------
+	Software License Agreement (BSD License)
+	
+	Copyright (c) 2009, Nicole Sullivan.
+	All rights reserved.
+*/
+
+.line, .last-unit {
+	margin: 25px 0px 0px;
+	overflow: hidden;
+	*overflow: visible;
+	*zoom: 1;
+}
+
+.unit {float: left;}
+.unit-right {float: right;}
+.size-1of1 {float: none;}
+.size-1of2 {width: 50%;}
+.size-1of3 {width: 33.33333%;}
+.size-2of3 {width: 66.66666%;}
+.size-1of4 {width: 25%;}
+.size-3of4 {width: 75%;}
+.size-1of5 {width: 20%;}
+.size-2of5 {width: 40%;}
+.size-3of5 {width: 60%;}
+.size-4of5 {width: 80%;}
+.size-1of6 {width: 16.656%;}
+.size-5of6 {width: 83.33333%;}
+
+.last-unit {
+	float: none;
+	width: auto;
+	_position: relative;
+	_left: -3px;
+	_margin-right: -3px;
+}
+
+.line-break {
+	margin-bottom: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+	margin: 0;
+}
+
+h1 {
+	font-size: 26px;
+	line-height: 32px;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+
+h5 {
+	font-size: 12px;
+	padding: 10px 0 0;
+}
+
+.box {
+	padding: 10px 0;
+}
+
+.faq-content {
+	padding-bottom: 20px;
+}
+
+.faq-text {
+	margin: 0 220px 0 20px;
+	padding: 0;
+}
+
+.faq-header {
+	border-top: 1px dashed #fff;
+	cursor: pointer;
+	outline: none;
+}
+
+.faq-header a,
+.faq-header a:hover {
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.faq-header.last {
+	border-bottom: 1px dashed #fff;
+}
+
+.strip-img {
+	float: left;
+	width: 100%;
+	height: 25px;
+	margin-bottom: 25px;
+}
+
+hr {
+	border: 1px solid #818181;
+	margin: 10px 0 20px;
+	padding: 0;
+}
+
+/* product variants
+	--------------------------------------------------*/
+
+.kettles-strip, .kettles,
+.toasters-strip, .toasters,
+.coffee-strip, .coffee,
+.espresso-strip, .espresso,
+.irons-strip, .irons, .steam-gen,
+.floor-vac-strip, .floor-vac,
+.steam-mop-strip, .steam-mop,
+.blenders-strip, .blenders, .hand-blenders,
+.food-processors-strip, .food-processors,
+.hand-mixers-strip, .hand-mixers,
+.stand-mixers-strip, .stand-mixers,
+.steamers-strip, .steamers,
+.slow-cookers-strip, .slow-cookers,
+.sandwich-makers-strip, .sandwich-makers,
+.bread-makers-strip, .bread-makers,
+.deep-fryers-strip,.deep-fryers {
+	background-color: #000;
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+
+.kettles-strip {background-image: url(../../../images/custom/faq/kettles-strip_650x25.jpg);}
+.kettles {background-image: url(../../../images/custom/faq/kettles-bg.jpg);}
+
+.toasters-strip {background-image: url(../../../images/custom/faq/toasters-strip_650x25.jpg);}
+.toasters {background-image: url(../../../images/custom/faq/toasters-bg.jpg);}
+
+.coffee-strip {background-image: url(../../../images/custom/faq/coffee-strip_650x25.jpg);}
+.coffee {background-image: url(../../../images/custom/faq/coffee-bg.jpg);}
+
+.espresso-strip {background-image: url(../../../images/custom/faq/espresso-strip_650x25.jpg);}
+.espresso {background-image: url(../../../images/custom/faq/espresso-bg.jpg);}
+
+.irons-strip {background-image: url(../../../images/custom/faq/irons-strip_650x25.jpg);}
+.irons {background-image: url(../../../images/custom/faq/irons-bg.jpg);}
+.steam-gen {background-image: url(../../../images/custom/faq/steam-gen-bg.jpg);}
+
+.floor-vac-strip {background-image: url(../../../images/custom/faq/floorcare-vac-strip_650x25.jpg);}
+.floor-vac {background-image: url(../../../images/custom/faq/floor-vac-bg.jpg);}
+
+.steam-mop-strip {background-image: url(../../../images/custom/faq/steam-mop-strip_650x25.jpg);}
+.steam-mop {background-image: url(../../../images/faq/steam-mop-bg.jpg);}
+
+.blenders-strip {background-image: url(../../../images/custom/faq/blenders-strip_650x25.jpg);}
+.blenders {background-image: url(../../../images/custom/faq/blenders-bg.jpg);}
+.hand-blenders {background-image: url(../../../images/custom/faq/hand-blenders-bg.jpg);}
+
+.food-processors-strip {background-image: url(../../../images/custom/faq/food-processors-strip_650x25.jpg);}
+.food-processors {background-image: url(../../../images/custom/faq/food-processors-bg.jpg);}
+
+.hand-mixers-strip {background-image: url(../../../images/custom/faq/hand-mixers-strip_650x25.jpg);}
+.hand-mixers {background-image: url(../../../images/custom/faq/hand-mixers-bg.jpg);}
+
+.stand-mixers-strip {background-image: url(../../../images/custom/faq/stand-mixers-strip_650x25.jpg);}
+.stand-mixers {background-image: url(../../../images/custom/faq/stand-mixers-bg.jpg);}
+
+.steamers-strip {background-image: url(../../../images/custom/faq/steamers-strip_650x25.jpg);}
+.steamers {background-image: url(../../../images/custom/faq/steamers-bg.jpg);}
+
+.slow-cookers-strip {background-image: url(../../../images/custom/faq/slow-cookers-strip_650x25.jpg);}
+.slow-cookers {background-image: url(../../../images/custom/faq/slow-cookers-bg.jpg);}
+
+.sandwich-makers-strip {background-image: url(../../../images/custom/faq/sandwich-makers-strip_650x25.jpg);}
+.sandwich-makers {background-image: url(../../../images/custom/faq/sandwich-makers-bg.jpg);}
+
+.bread-makers-strip {background-image: url(../../../images/custom/faq/bread-makers-strip_650x25.jpg);}
+.bread-makers {background-image: url(../../../images/custom/faq/bread-makers-bg.jpg);}
+
+.deep-fryers-strip {background-image: url(../../../images/custom/faq/deep-fryers-strip_650x25.jpg);}
+.deep-fryers {background-image: url(../../../images/custom/faq/deep-fryers-bg.jpg);}
+
+/*
+	accordion
+	--------------------------------------------------*/
+.ui-icon {
+	width: 16px;
+	height: 16px;
+	background-repeat: no-repeat;
+	display: block;
+	overflow: hidden;
+	float: right;
+}
+
+.accordion-collapse,.accordion-expand {background-image-position: right center;}
+
+.accordion-collapse {background-image: url(../../../images/custom/faq/down-arrow.png);}
+.accordion-expand {background-image: url(../../../images/custom/faq/right-arrow.png);}

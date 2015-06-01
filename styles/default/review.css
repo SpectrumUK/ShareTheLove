@@ -1,0 +1,32 @@
+body {background: url(../../../images/custom/textured_listings_bk.jpg) bottom center no-repeat #000000;}
+#dsContent{position:relative; height: inherit; text-align:left; width: 960px; \/*IE 5.x hack*/; margin: 0px auto; padding: 25px 0px; z-index: 90;}
+#dsCRESTstrip {background: url(../../../images/custom/strips/crest.jpg) top center no-repeat; padding: 0px 0px 0px; height: 25px;}
+#dsContent h1{font-size: 26px; font-weight: bold; line-height: 32px; color: #ffffff; padding: 0px; margin: 10px 0px 0px;}
+.addthis {float: right; text-align: right;}
+#BVSubmissionContainer{width: 940px; height: inherit; margin: 0px auto; position: relative; padding: 20px 0px 0px;}
+#BVHolderFtr{width: 810px; position: absolute; bottom: 10px; left: 75px; height: 24px; z-index: 100;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

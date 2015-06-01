@@ -1,0 +1,2 @@
+body {background-color: #000000; padding: 20px;}
+#dsContent{height: inherit; text-align: center; width: 960px; \/*IE 5.x hack*/; margin: 0px auto; padding: 0px;}

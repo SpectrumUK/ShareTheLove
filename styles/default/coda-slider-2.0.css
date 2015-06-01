@@ -1,0 +1,95 @@
+/* Insignificant stuff, for demo purposes */
+
+	.panel h2.title { margin: 20px 0px 3px 0px; font-size: 21px; color: #262626; font-weight: normal}
+	noscript div { background: #eeeeee; border: 1px solid #999999; margin: 20px 0; padding: 0px }
+
+/* Most common stuff you'll need to change */
+
+	.coda-slider-wrapper { padding: 2px 0px; border-top: #e5e5e5 solid 1px; border-bottom: #e5e5e5 solid 1px; margin: 20px 0px}
+	.coda-slider { background: #ffffff}
+	
+	/* Use this to keep the slider content contained in a box even when JavaScript is disabled */
+	.coda-slider-no-js .coda-slider { height: 200px; overflow: auto !important;}
+	
+	/* Change the width of the entire slider (without dynamic arrows) */
+	.coda-slider, .coda-slider .panel { width: 600px} 
+	
+	/* Change margin and width of the slider (with dynamic arrows) */
+	.coda-slider-wrapper.arrows .coda-slider, .coda-slider-wrapper.arrows .coda-slider .panel { width: 600px}
+	.coda-slider-wrapper.arrows .coda-slider { margin: 0px }
+	
+	/* Arrow styling */
+	.coda-nav-left a, .coda-nav-right a { color: #fff; width: 70px; height: 204px; background-position: center 75px; background-repeat: no-repeat}
+	.coda-nav-left a{ background-image: url(../../../images/timeline/left_arrow.gif)}
+	.coda-nav-right a{ background-image: url(../../../images/timeline/right_arrow.gif)}
+	
+	/* Tab nav */
+	.coda-nav ul li a.current {background-color: #262626; color: #fff }
+	
+	/* Panel padding */
+	.coda-slider .panel-wrapper { padding: 2px 0px}
+	
+	/* Preloader */
+	.coda-slider p.loading { padding: 20px; text-align: center }
+
+/* Don't change anything below here unless you know what you're doing */
+
+	/* Tabbed nav */
+	.coda-nav ul { clear: both; display: block; margin: 0px; overflow: hidden; border-bottom: #e5e5e5 solid 1px; padding: 10px 0px;}
+	.coda-nav ul li { display: inline }
+	.coda-nav ul li a { color: #777; font-size: 14px; display: block; float: left; padding: 3px 5px; text-decoration: none; margin: 0px}
+	
+	/* Miscellaneous */
+	.coda-slider-wrapper { clear: both; overflow: hidden }
+	.coda-slider { float: left; overflow: hidden; position: relative }
+	.coda-slider .panel { display: block; float: left }
+	.coda-slider .panel-container { position: relative }
+	.coda-nav-left, .coda-nav-right { float: left }
+	.coda-nav-left a, .coda-nav-right a { display: block; text-align: center; text-decoration: none }
+	
+/* sroyle styles */
+	.panelLeft{ width: 275px; height: inherit; float:left; border: #e5e5e5 solid 1px}
+	.panelRight{ width: 300px; height: inherit; padding: 0px 0px 0px 15px; float:left}
+	
+/* rest styles
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	background: transparent;
+	border: 0;
+	font-size: 12px;
+	font-family: Arial;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+p{
+	background: transparent;
+	border: 0;
+	font-size: 12px;
+	font-family: Arial;
+	margin: 0;
+	outline: 0;
+	padding: 4px 0px;
+	vertical-align: baseline;
+	color: #262626;
+}
+body {
+	line-height: 1.2;
+}
+ol, ul {
+	margin-left: 25px;
+}
+
+:focus {
+	outline: 1px #c0c dotted;
+}*/
