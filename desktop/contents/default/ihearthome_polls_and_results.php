@@ -54,8 +54,6 @@
 </div>
 
 
-
-
 <div class="col-sm-6 nopaddingright">
     <div class="jcarousel-wrapper">
         <div class="jcarousel">
@@ -109,77 +107,9 @@
         $('#happyhide, #happyhide1').hide();
     });
 </script>
-
-<script>
-
-
-function setProgressOne(progress, product) {
-    var progressBarWidth = progress * $(".containerOne").width() / 100;
-    $(".progressbar").width(progressBarWidth);
-    $('.message-over').css('clip', 'rect(0px, ' + progressBarWidth + 'px, 30px, 0px)');
-    $('.message').html(progress + "% " + product);
-}
-
-function setProgressTwo(progressTwo, productTwo)
-{    
-    var progressBarWidth = progressTwo * $(".containerTwo").width() / 100;
-    $(".progressbarTwo").width(progressBarWidth);
-    $('.message-overTwo').css('clip', 'rect(0px, ' + progressBarWidth + 'px, 30px, 0px)');
-    $('.messageTwo').html(progressTwo + "% " + productTwo);
-}
-
-
-function addDivsForPoll()
-{     
-    $('#topPartBody').hide();
-    
-    $('#topPartBodyLower').hide();
-    
-    $('#topPart').append('<div class="containerOne"><div class="message message-under"></div><div class="progressbar"></div><div class="message message-over"></div></div>');
-       
-    $('#topPartLower').append('<div class="containerTwo"><div class="messageTwo message-underTwo"></div><div class="progressbarTwo"></div><div class="messageTwo message-overTwo"></div></div>');
-}
-
-
-    $('.polloption1').click(function (e) {
-        
-        e.preventDefault();  
-
-        var ipAddress = '<?php echo getIP(); ?>';
-        
-        var pollResults = $(this).data("value");
-        
-        $data = {pollID:<?php echo $consumer_poll_details['poll_id'];?>,poll_results:pollResults,ip_address:ipAddress};
-      
-        $.ajax({
-            url: 'http://tr.russellhobbs.com/test_page.html',
-            type: 'GET',
-            dataType: 'json',
-            data: $data,
-            success: function(data){ 
- 
-                var    percentageOne = data.firstPercentage;
-
-                var    questionOne   = data.firstQuestion;  
-
-                var    percentageTwo = data.secondPercentage;
-
-                var    questionTwo   = data.secondQuestion;
-
-                addDivsForPoll();
-            
-                setProgressOne(percentageOne,questionOne);
-
-                setProgressTwo(percentageTwo, questionTwo);
-            }
-        });
-
-    });
-	
-</script>
 <?php 
 //echo 'Main array = ';
 //unset($consumer_poll_details['related_poll_items']);
-//echo dsf_print_array($consumer_poll_details);
+echo dsf_print_array($parent_poll);
 ?>
 

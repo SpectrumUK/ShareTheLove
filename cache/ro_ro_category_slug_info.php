@@ -1,0 +1,96 @@
+<?php
+$category_slug_cache = array();
+$category_slug_cache[1] = 'http://ro.russellhobbs.com/produse-russell-hobbs/';
+$category_slug_cache[6] = 'http://ro.russellhobbs.com/produse-russell-hobbs/fierbatoare/';
+$category_slug_cache[7] = 'http://ro.russellhobbs.com/produse-russell-hobbs/prajitoare-de-paine/';
+$category_slug_cache[8] = 'http://ro.russellhobbs.com/produse-russell-hobbs/cafetiere/';
+$category_slug_cache[9] = 'http://ro.russellhobbs.com/produse-russell-hobbs/prepararea-mancarii/';
+$category_slug_cache[36] = 'http://ro.russellhobbs.com/colectii-russell-hobbs/';
+$category_slug_cache[37] = 'http://ro.russellhobbs.com/colectii-russell-hobbs/glass-collection/';
+$category_slug_cache[135] = 'http://ro.russellhobbs.com/colectii-russell-hobbs/food-collection/';
+$category_slug_cache[136] = 'http://ro.russellhobbs.com/colectii-russell-hobbs/allure/';
+$category_slug_cache[140] = 'http://ro.russellhobbs.com/colectii-russell-hobbs/glass-touch-collection/';
+$category_slug_cache[141] = 'http://ro.russellhobbs.com/colectii-russell-hobbs/deluxe/';
+$category_slug_cache[152] = 'http://ro.russellhobbs.com/colectii-russell-hobbs/desire/';
+$category_slug_cache[153] = 'http://ro.russellhobbs.com/colectii-russell-hobbs/mono/';
+$category_slug_cache[154] = 'http://ro.russellhobbs.com/colectii-russell-hobbs/steel-touch/';
+$category_slug_cache[155] = 'http://ro.russellhobbs.com/colectii-russell-hobbs/cottage-floral/';
+$category_slug_cache[156] = 'http://ro.russellhobbs.com/colectii-russell-hobbs/cottage/';
+$category_slug_cache[157] = 'http://ro.russellhobbs.com/colectii-russell-hobbs/mini-classic-collection/';
+$category_slug_cache[158] = 'http://ro.russellhobbs.com/colectii-russell-hobbs/purple-passion/';
+$category_slug_cache[159] = 'http://ro.russellhobbs.com/colectii-russell-hobbs/stylis/';
+$category_slug_cache[160] = 'http://ro.russellhobbs.com/colectii-russell-hobbs/jungle-green/';
+$category_slug_cache[161] = 'http://ro.russellhobbs.com/colectii-russell-hobbs/breakfast-collection/';
+$category_slug_cache[262] = 'http://ro.russellhobbs.com/produse-russell-hobbs/fiare-de-calcat/';
+$category_slug_cache[400] = 'http://ro.russellhobbs.com/colectii-russell-hobbs/jewels-collection/';
+$category_slug_cache[401] = 'http://ro.russellhobbs.com/colectii-russell-hobbs/futura-collection/';
+$category_slug_cache[402] = 'http://ro.russellhobbs.com/colectii-russell-hobbs/cook-at-home/';
+$category_slug_cache[403] = 'http://ro.russellhobbs.com/produse-russell-hobbs/gratare-si-aparate-de-gatit/';
+$category_slug_cache[3000] = 'http://ro.russellhobbs.com/colectii-russell-hobbs/kitchen-collection/';
+$category_slug_cache[3001] = 'http://ro.russellhobbs.com/colectii-russell-hobbs/colours/';
+$category_slug_cache[3002] = 'http://ro.russellhobbs.com/colectii-russell-hobbs/easy-store-irons/';
+$category_slug_cache[3429] = 'http://ro.russellhobbs.com/colectii-russell-hobbs/black-glass-collection/';
+$category_slug_cache[3430] = 'http://ro.russellhobbs.com/colectii-russell-hobbs/easy-breakfast/';
+$category_slug_cache[3444] = 'http://ro.russellhobbs.com/produse-russell-hobbs/mopuri-cu-aburi/';
+$category_slug_cache[3498] = 'http://ro.russellhobbs.com/colectii-russell-hobbs/precision-control/';
+$category_slug_cache[3499] = 'http://ro.russellhobbs.com/colectii-russell-hobbs/chester/';
+$category_slug_cache[3500] = 'http://ro.russellhobbs.com/colectii-russell-hobbs/oxford/';
+$category_slug_cache[3501] = 'http://ro.russellhobbs.com/colectii-russell-hobbs/illumina-colour-control/';
+$category_slug_cache[3519] = 'http://ro.russellhobbs.com/colectii-russell-hobbs/buckingham/';
+$category_slug_cache[3520] = 'http://ro.russellhobbs.com/colectii-russell-hobbs/aura/';
+$category_slug_cache[3547] = 'http://ro.russellhobbs.com/colectii-russell-hobbs/legacy/';
+$category_slug_cache[3554] = 'http://ro.russellhobbs.com/produse-russell-hobbs/aspiratoare-pentru-geamuri/';
+$category_slug_checker = 'valid';
+$category_slug_counter = 40;
+
+
+$category_children_cache = array();
+$category_children_cache[1] = '1:6:7:8:9:262:403:3444:3554';
+$category_children_cache[6] = '6';
+$category_children_cache[7] = '7';
+$category_children_cache[8] = '8';
+$category_children_cache[9] = '9';
+$category_children_cache[36] = '36:37:135:136:140:141:152:153:154:155:156:157:158:160:161:400:401:402:3000:3001:3002:3429:3430:3498:3499:3500:3501:3519:3520:3547';
+$category_children_cache[37] = '37';
+$category_children_cache[135] = '135';
+$category_children_cache[136] = '136';
+$category_children_cache[140] = '140';
+$category_children_cache[141] = '141';
+$category_children_cache[152] = '152';
+$category_children_cache[153] = '153';
+$category_children_cache[154] = '154';
+$category_children_cache[155] = '155';
+$category_children_cache[156] = '156';
+$category_children_cache[157] = '157';
+$category_children_cache[158] = '158';
+$category_children_cache[159] = '159';
+$category_children_cache[160] = '160';
+$category_children_cache[161] = '161';
+$category_children_cache[262] = '262';
+$category_children_cache[400] = '400';
+$category_children_cache[401] = '401';
+$category_children_cache[402] = '402';
+$category_children_cache[403] = '403';
+$category_children_cache[3000] = '3000';
+$category_children_cache[3001] = '3001';
+$category_children_cache[3002] = '3002';
+$category_children_cache[3429] = '3429';
+$category_children_cache[3430] = '3430';
+$category_children_cache[3444] = '3444';
+$category_children_cache[3498] = '3498';
+$category_children_cache[3499] = '3499';
+$category_children_cache[3500] = '3500';
+$category_children_cache[3501] = '3501';
+$category_children_cache[3519] = '3519';
+$category_children_cache[3520] = '3520';
+$category_children_cache[3547] = '3547';
+$category_children_cache[3554] = '3554';
+
+
+$category_parts_slug_cache = array();
+$category_parts_slug_checker = 'valid';
+$category_parts_slug_counter = 0;
+
+
+$category_parts_children_cache = array();
+?>

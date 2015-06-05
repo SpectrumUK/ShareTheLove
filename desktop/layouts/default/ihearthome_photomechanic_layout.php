@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="<?php echo $dsv_html_language;?>"><head>
-<meta http-equiv="Content-Type" content="text/html; charset= />
-<meta name="content-language" content="" />
+<meta http-equiv="Content-Type" content="text/html; charset=<?php echo $dsv_html_charset;?>" />
+<meta name="content-language" content="<?php echo $dsv_content_language;?>" />
 
 <meta charset="utf-8">
 <?php
@@ -39,8 +39,8 @@ if ($action == 'success'){
         
         <!---  ADD STYLE SHEETS -->
 
-<link href="styles/default/layout.css" rel="stylesheet" type="text/css" />
-<link href="styles/default/general.css" rel="stylesheet" type="text/css" />
+<link href="<?php echo $SSL_bref;?>styles/default/layout.css" rel="stylesheet" type="text/css" />
+<link href="<?php echo $SSL_bref;?>styles/default/general.css" rel="stylesheet" type="text/css" />
 
 <!--- IHEARTHOME PHOTO MECHANIC STYLE SHEETS -->
 <link rel="stylesheet" href="<?php echo $SSL_bref;?>desktop/styles/ihearthome/mechanic/ilovehomestyles.css">
@@ -64,8 +64,8 @@ if ($action == 'success'){
 
 <!---  ADD STYLE SHEETS -->
 
-<link href="styles/default/layout.css" rel="stylesheet" type="text/css" />
-<link href="styles/default/general.css" rel="stylesheet" type="text/css" />
+<link href="<?php echo $SSL_bref;?>styles/default/layout.css" rel="stylesheet" type="text/css" />
+<link href="<?php echo $SSL_bref;?>styles/default/general.css" rel="stylesheet" type="text/css" />
 
 <!--- IHEARTHOME PHOTO MECHANIC STYLE SHEETS -->
 <link rel="stylesheet" href="<?php echo $bref;?>desktop/styles/ihearthome/mechanic/ilovehomestyles.css">
@@ -111,14 +111,14 @@ var _errorfbNoPhotos = "We are unable to find any Facebook images at this time. 
 </script>
 
 <!--- IHEARTHOME PHOTO MECHANIC SCRIPTS -->
-<script src="desktop/scripts/ihearthome/mechanic/vendor/modernizr-2.6.2.min.js"></script>
-<script src="desktop/scripts/ihearthome/mechanic/jquery-1.9.1.min.js" type="text/javascript"></script>
-<script src="desktop/scripts/ihearthome/mechanic/easeljs-0.7.0.min.js" type="text/javascript"></script>
-<script src="desktop/scripts/ihearthome/mechanic/preloadjs-0.4.0.min.js" type="text/javascript"></script>
-<script src="desktop/scripts/ihearthome/mechanic/base64.js" type="text/javascript"></script>
-<script src="desktop/scripts/ihearthome/mechanic/jpeg_encoder.min.js" type="text/javascript"></script>
-<script src="desktop/scripts/ihearthome/mechanic/russell-hobbs-comp-mechanic.js"></script>
-<script src="desktop/scripts/ihearthome/mechanic/vendor/swfobject.js" type="text/javascript"></script>
+<script src="<?php echo $SSL_bref;?>desktop/scripts/ihearthome/mechanic/vendor/modernizr-2.6.2.min.js"></script>
+<script src="<?php echo $SSL_bref;?>desktop/scripts/ihearthome/mechanic/jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="<?php echo $SSL_bref;?>desktop/scripts/ihearthome/mechanic/easeljs-0.7.0.min.js" type="text/javascript"></script>
+<script src="<?php echo $SSL_bref;?>desktop/scripts/ihearthome/mechanic/preloadjs-0.4.0.min.js" type="text/javascript"></script>
+<script src="<?php echo $SSL_bref;?>desktop/scripts/ihearthome/mechanic/base64.js" type="text/javascript"></script>
+<script src="<?php echo $SSL_bref;?>desktop/scripts/ihearthome/mechanic/jpeg_encoder.min.js" type="text/javascript"></script>
+<script src="<?php echo $SSL_bref;?>desktop/scripts/ihearthome/mechanic/russell-hobbs-comp-mechanic.js"></script>
+<script src="<?php echo $SSL_bref;?>desktop/scripts/ihearthome/mechanic/vendor/swfobject.js" type="text/javascript"></script>
 
 <?php
 echo $top_manual_items;
@@ -152,26 +152,30 @@ echo $top_manual_items;
 
 </head>
 <body>
-
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NH6ZBJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NH6ZBJ');</script>
+<!-- End Google Tag Manager -->
 <div id="fb-root"></div>
 
 <?php //include('custom_modules/default/cookie_bar.php'); ?>
 
-<div id="headerHolder"></div>
+<div id="headerHolder"><?php include ('custom_modules/default/header.php');?></div>
 <div class="clear"></div>
 
 <div id="IHeartHome_Container">
-    <?php
-	require ('desktop/contents/default/ilovehome_photomechanic.php');
-    ?>            
+		<?php include($content_include);?>
 </div>
 <div class="clear"></div>
 <div id="footerHolder"><?php include('custom_modules/default/footer.php');?></div>
 
 <?php
-//echo $bottom_manual_items;
-
-
+echo $bottom_manual_items;
 ?>
 
 </body>

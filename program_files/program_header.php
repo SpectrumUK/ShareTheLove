@@ -231,10 +231,10 @@ $dsv_keep_errors = '';
 
 // ##########################
 // include the database functions
- // require('program_files/system/' . 'db_functions.php');
+  require('program_files/system/' . 'db_functions.php');
 
 // make a connection to the database... now
- // dsf_db_connect() or die('Sorry Database communication error!');
+ dsf_db_connect() or die('Sorry Database communication error!');
 
 
 
@@ -276,7 +276,7 @@ if(isset($cache_webshops) && is_array($cache_webshops)){
 	
 } // end if cache_webshops exists 2013-11-11 amendment.
 
-
+//endy changed the setting on the $dsv_master_domain inorder for it to work on the local host. 
 
 // get details of the shop based on what we are told from server variable SERVER_NAME
 $dsv_domain_valid = 'false';
@@ -286,11 +286,16 @@ $dsv_subs_domain_active = 'false';
 $dsv_subs_domain_name = '';
 
 
+
 if (isset($_SERVER['SERVER_NAME']) && strlen($_SERVER['SERVER_NAME']) > 3){
 	$dsv_master_domain = strtolower(trim($_SERVER['SERVER_NAME']));
+        
+//added by endy inorder to make the site work on the local host        
+$dsv_master_domain = "uk.russellhobbs.com";
 	
 	if (isset($cache_webshops[$dsv_master_domain])){
 		
+            
 		if (isset($cache_webshops[$dsv_master_domain]['subs'])){
 			
 
@@ -449,6 +454,7 @@ if (isset($_SERVER['SERVER_NAME']) && strlen($_SERVER['SERVER_NAME']) > 3){
 							}
 
 					$dsv_db = trim($cache_webshops[$dsv_master_domain]['shop_db']);
+                                   
 			
 					$dsv_stock_api = (int)$cache_webshops[$dsv_master_domain]['stock_api'];
 					$dsv_order_api = (int)$cache_webshops[$dsv_master_domain]['order_api'];
@@ -461,8 +467,9 @@ if (isset($_SERVER['SERVER_NAME']) && strlen($_SERVER['SERVER_NAME']) > 3){
 					
 					$dsv_html_charset =	$cache_webshops[$dsv_master_domain]['language_page_charset'];
 					$dsv_content_language = $cache_webshops[$dsv_master_domain]['language_page_content'];
-					
-					$dsv_email_header_charset =	$item['language_email_header'];
+                                        
+//endy commented this out as it was producing an error. The $item variable is none existent.					
+				//	$dsv_email_header_charset =	$item['language_email_header'];
 
 					
 					$dsv_default_currency = strtoupper(trim($cache_webshops[$dsv_master_domain]['currency_title']));
@@ -472,7 +479,7 @@ if (isset($_SERVER['SERVER_NAME']) && strlen($_SERVER['SERVER_NAME']) > 3){
 					define ('SITE_SUBFOLDER' , '/');	// this should be '/' unless we have subs
 					define ('DEFAULT_CURRENCY' , $dsv_default_currency);
 			
-					define ('DEFAULT_EMAIL_HEADER_CHARSET' , $dsv_email_header_charset);
+				//	define ('DEFAULT_EMAIL_HEADER_CHARSET' , $dsv_email_header_charset);
 		}
 		
 
@@ -487,8 +494,12 @@ if (isset($_SERVER['SERVER_NAME']) && strlen($_SERVER['SERVER_NAME']) > 3){
 
 		// look up unit configurations and load then as definitions.
 		
+            
+                
 		  $configuration_query = dsf_db_query("select mu.configuration_key as cfgKey, mu.configuration_value as MastercfgValue,  su.configuration_value as ShopcfgValue from " . DS_DB_MASTER . ".unit_configuration mu left join " . DS_DB_SHOP . ".unit_configuration su on (mu.configuration_key = su.configuration_key) where mu.unit_id='" . $dsv_master_select_unit . "'");
-		  while ($configuration = dsf_db_fetch_array($configuration_query)) {
+	
+                  
+                  while ($configuration = dsf_db_fetch_array($configuration_query)) {
 			if (strlen($configuration['cfgKey']) > 0){
 			
 				if (strlen($configuration['ShopcfgValue']) > 0){
@@ -618,7 +629,7 @@ define('DS_HTTPS_COOKIE_PATH', '/');
 
 
 if (isset($_SERVER['DOCUMENT_ROOT'])){
-	$DOCUMENT_ROOT = $_SERVER['DOCUMENT_ROOT'];
+	$DOCUMENT_ROOT = " http://localhost/iloveHomePhotoMechanic";
 }else{
 	$DOCUMENT_ROOT = '';
 }
@@ -773,21 +784,21 @@ $SSL_bref = DS_HTTPS_SERVER. DS_WS_SHOP;
   require(DS_FUNCTIONS . 'image_functions.php');
   require(DS_FUNCTIONS . 'cache_url_functions.php');
 
-  require(DS_FUNCTIONS . 'banner_functions.php');
+ // require(DS_FUNCTIONS . 'banner_functions.php');
 
-  require(DS_FUNCTIONS . 'xml_classes.php');
+ // require(DS_FUNCTIONS . 'xml_classes.php');
 
 
 // include stock API routines
 
 if (isset($dsv_stock_api) && $dsv_stock_api == 1){
 	// convar stock
-  	include ('convar/convar_stock_functions.php');
+  	//include ('convar/convar_stock_functions.php');
 }
 
 if (isset($dsv_stock_api) && $dsv_stock_api == 3){
 	// convar stock
-  	include ('convar/sap_stock_functions.php');
+  //	include ('convar/sap_stock_functions.php');
 }
 
 
@@ -798,7 +809,7 @@ if (isset($dsv_stock_api) && $dsv_stock_api == 3){
 
 if (isset($dsv_order_api) && $dsv_order_api == 1){
 	// convar orders
-  	include ('convar/convar_order_functions.php');
+  	//include ('convar/convar_order_functions.php');
 }
 
 
@@ -813,7 +824,7 @@ if (isset($dsv_order_api) && $dsv_order_api == 1){
 
 // bring in category cache data
 
-include(DS_FUNCTIONS . 'create_category_cache.php');
+//include(DS_FUNCTIONS . 'create_category_cache.php');
 
 
 
@@ -1605,7 +1616,7 @@ if (!isset($cpgn)) {
 // include email functions
 include (DS_FUNCTIONS . 'multipart_functions.php');
 
-
+require(DS_FUNCTIONS  . 'dynamic_form_functions.php');
 
 // include currencies class and create an instance
   require(DS_CLASSES . 'currency_classes.php');
@@ -1991,7 +2002,7 @@ $dsv_column_search_form_end = dsf_hide_session_id() . '</form>';
 // create a basket class to store what is currently in the basket.
 
 
-if (isset($dsv_column_basket)){ 
+if (!isset($dsv_column_basket)){ 
 	// do nothing already set by left column.
 	}else{
 			

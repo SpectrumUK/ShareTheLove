@@ -5,7 +5,7 @@
 // Last Amendment: 	never.
 
 
-require ('program_files/system/general_functions.php');
+//require ('program_files/system/general_functions.php');
 
 function dsf_user_imaage_upload($item_array, $mechanicID=0){
 	global $dsv_image_item_id;
@@ -201,9 +201,6 @@ if (isset($_GET['action'])){
 }else{
 	$action = '';
 }
-
-
-
 
 
 // image upload Master details
@@ -540,7 +537,7 @@ if (isset($image_upload_details['form_id']) && (int)$image_upload_details['form_
 
 
 
-//include('program_files/layout_header.php');
+include('program_files/layout_header.php');
 
 // if we are coming from an ajax page then we just load back up the ajax page.
 
@@ -551,8 +548,8 @@ if ($action == 'ajax_submit'){
 }else{
 	
 	// do standard procedures
-
-require ('desktop/contents/default/ilovehome_photomechanic.php');
+require (DS_LAYOUT . DS_LAYOUT_TEMPLATE_NAME);
+//require ('desktop/contents/default/ilovehome_photomechanic.php');
 
 }
 ?>
